@@ -1,0 +1,44 @@
+.conponent-contactosend {
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.h2-margin-contactos {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+ion-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.conponent-centericonos {
+  margin-top: 50px;
+  align-items: center;
+
+}
+
+.conponent-contaciconos {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  }
+
+.conponent-contaciconos > div {
+  text-align: center;
+  
+}
+.container-derechos {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.Derechos {
+  margin: 0 auto;
+}

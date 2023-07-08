@@ -1,13 +1,15 @@
 .conponent-contactosend {
-  background-color: yellow;
+  background-color: #EB6C1F;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
+  color: white;
 }
 
 .h2-margin-contactos {
   margin-top: 20px;
   margin-left: 20px;
+  
 }
 
 ion-icon {
@@ -16,7 +18,7 @@ ion-icon {
 }
 
 .conponent-centericonos {
-  margin-top: 50px;
+  margin-top: 20px;
   align-items: center;
 
 }
@@ -35,7 +37,7 @@ ion-icon {
   
 }
 .container-derechos {
-  margin-top: 30px;
+
   text-align: center;
 }
 

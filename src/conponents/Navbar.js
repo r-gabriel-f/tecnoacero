@@ -1,5 +1,5 @@
 import React from "react";
-import tc from "../assets/img/tecnoAcero.jpg";
+import tc from "../assets/img/tecnoAcero.jpeg";
 import "../conponents/Navbar.css";
 export const Navbar = () => {
   return (

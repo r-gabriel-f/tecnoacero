@@ -1,0 +1,41 @@
+
+.mision-vision {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.mision img,
+.vision img {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  height: 100px;
+}
+.mision p,
+.vision p {
+  text-align: justify;
+}
+.mision {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vision {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-valores {
+    margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-valores img{
+    margin-top: 20px;
+}

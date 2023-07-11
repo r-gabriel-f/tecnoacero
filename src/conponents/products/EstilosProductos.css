@@ -1,0 +1,29 @@
+.container-productosestilos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-parts {
+  display: grid;
+  justify-items: center;
+  gap: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.container-parts-detalles {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 50px;
+  margin-top: 30px;
+}
+
+.container-parts-detalles div {
+  text-align: center;
+}
+
+.img-productos-n {
+  width: 150px;
+  height: 150px;
+}

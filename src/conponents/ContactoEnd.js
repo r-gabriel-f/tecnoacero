@@ -30,7 +30,9 @@ export const ContactoEnd = () => {
               <p>Instagram</p>
             </div>
           </div>
-          <div className="container-derechos">
+          
+        </div>
+        <div className="container-derechos">
             <footer className="Derechos">
               <p>
                 &copy; 2023 Tecnoacero S.R.L. <br />
@@ -38,7 +40,6 @@ export const ContactoEnd = () => {
               </p>
             </footer>
           </div>
-        </div>
       </div>
     </section>
   );

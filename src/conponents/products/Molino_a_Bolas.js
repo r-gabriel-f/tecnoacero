@@ -1,13 +1,12 @@
-import React from "react";
+import React from 'react'
 import "../../conponents/products/EstilosProductos.css";
 import n from "../../assets/img/ojo.png";
-
-export const Mesa_Concentradora = () => {
+export const Molino_a_Bolas = () => {
   return (
     <section className="container-productosestilos">
       <div className="container-parts">
         <div className="container-parts-name">
-          <h2>Repuestos de Mesa Concentradora</h2>
+          <h2>Repuestos de Molino a Bolas</h2>
         </div>
         <div className="container-parts-detalles">
           <div>
@@ -53,5 +52,5 @@ export const Mesa_Concentradora = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}

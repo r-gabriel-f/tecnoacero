@@ -1,6 +1,6 @@
-import logo from "./logo.svg";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
-import { Navbar } from "./conponents/Navbar";
+
 import { Inicio } from "./conponents/Inicio";
 import { ContactoEnd } from "./conponents/ContactoEnd";
 import { Institucion } from "./conponents/Institucion";
@@ -10,15 +10,26 @@ import { Chancadora } from "./conponents/products/Chancadora";
 import { Celda_de_Flotación } from "./conponents/products/Celda_de_Flotación";
 import { Molino_a_Bolas } from "./conponents/products/Molino_a_Bolas";
 import { Servicios } from "./conponents/Servicios";
-
+import { Mapa } from "./conponents/Mapa";
+import Navbar from "./conponents/Navbar";
 
 function App() {
+
+
   return (
-    <div className="App">
-      <Navbar></Navbar>
-      <Servicios></Servicios>
-      <ContactoEnd></ContactoEnd>
-    </div>
+    <Router>
+      <div>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Inicio />} />
+          <Route path="/institucion" element={<Institucion />} />
+          <Route path="/servicios" element={<Servicios />} />
+          <Route path="/ubicacion" element={<Mapa />} />
+          {/* Resto de las rutas */}
+        </Routes>
+      </div>
+      <ContactoEnd />
+    </Router>
   );
 }
 

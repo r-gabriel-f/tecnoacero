@@ -9,4 +9,8 @@
 .nav-link{
     color: white;
 }
-
+.dropdown-item {
+    white-space: normal;
+  
+  }
+  

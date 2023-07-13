@@ -37,7 +37,20 @@ const Navbar = () => {
     navigate("/ubicacion");
     setIsMenuOpen(false);
   };
-  
+
+  //productos maquinaria
+
+  const handlemaquinariaClick = () => {
+    navigate("/productos/maquinaria");
+    setIsMenuOpen(false);
+  };
+
+  //producto extraccion minera
+
+  const handleextraccionClick = () => {
+    navigate("/productos/extracción_minera");
+    setIsMenuOpen(false);
+  };
 
   return (
     <nav class="navbar navbar-expand-lg custom-navbar fixed-top">
@@ -51,32 +64,79 @@ const Navbar = () => {
         <div
           className={`collapse navbar-collapse ${isMenuOpen ? "show" : ""}`}
           id="navbarSupportedContent"
-          style={{ marginTop: "-10px" }}
         >
-          <ul class="navbar-nav mx-auto mb-10 mb-lg-0">
+          <ul class="navbar-nav mx-auto mb-10 mb-lg-0 me-2" >
             <li class="nav-item mx-3">
-              <Link class="nav-link" aria-current="page" to="/" onClick={handleInicioClick}>
+              <Link
+                class="nav-link"
+                aria-current="page"
+                to="/"
+                onClick={handleInicioClick}
+              >
                 Inicio
               </Link>
             </li>
             <li class="nav-item mx-3">
-              <Link class="nav-link" aria-current="page" to="/institucion" onClick={handleInstitucionClick}>
+              <Link
+                class="nav-link"
+                aria-current="page"
+                to="/institucion"
+                onClick={handleInstitucionClick}
+              >
                 Institución
               </Link>
             </li>
             <li class="nav-item mx-3">
-              <Link class="nav-link" aria-current="page" to="/servicios" onClick={handleserviciosClick}>
+              <Link
+                class="nav-link"
+                aria-current="page"
+                to="/servicios"
+                onClick={handleserviciosClick}
+              >
                 Servicios
               </Link>
             </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link" aria-current="page" href="#">
+
+            <li className="nav-item mx-3 dropdown">
+              <a
+                className="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
                 Productos
               </a>
+              <ul className="dropdown-menu">
+                <li>
+                  <Link
+                    className="dropdown-item"
+                    to="/productos/maquinaria"
+                    onClick={handlemaquinariaClick}
+                  >
+                    Maquinaria
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className="dropdown-item"
+                    to="/productos/extracción_minera"
+                    onClick={handleextraccionClick}
+                  >
+                    Extracción Minera
+                  </Link>
+                </li>
+              </ul>
             </li>
+
             <li class="nav-item mx-3">
-              <a class="nav-link" aria-current="page" to="/ubicacion" onClick={handleUbicacionClick}>
-                Uhicacion
+              <a
+                class="nav-link"
+                aria-current="page"
+                to="/ubicacion"
+                onClick={handleUbicacionClick}
+              >
+                Ubicacion
               </a>
             </li>
           </ul>

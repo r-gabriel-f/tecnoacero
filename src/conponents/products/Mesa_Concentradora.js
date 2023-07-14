@@ -10,45 +10,85 @@ export const Mesa_Concentradora = () => {
           <h2>Repuestos de Mesa Concentradora</h2>
         </div>
         <div className="container-parts-detalles">
-          <div>
-            <h3>name</h3>
-            <img src={n} href id="n" className="img-productos-n" />
+          <div className="piezas">
+            <div className="nombre-pieza">
+              <h3>name</h3>
+            </div>
+            <div className="imagen-pieza">
+              <img src={n} href id="n" className="img-productos-n" />
+            </div>
           </div>
-          <div>
-            <h3>name</h3>
-            <img src={n} href id="n" className="img-productos-n" />
+          <div className="piezas">
+            <div className="nombre-pieza">
+              <h3>name</h3>
+            </div>
+            <div className="imagen-pieza">
+              <img src={n} href id="n" className="img-productos-n" />
+            </div>
           </div>
-          <div>
-            <h3>name</h3>
-            <img src={n} href id="n" className="img-productos-n" />
+          <div className="piezas">
+            <div className="nombre-pieza">
+              <h3>name</h3>
+            </div>
+            <div className="imagen-pieza">
+              <img src={n} href id="n" className="img-productos-n" />
+            </div>
           </div>
-          <div>
-            <h3>name</h3>
-            <img src={n} href id="n" className="img-productos-n" />
+          <div className="piezas">
+            <div className="nombre-pieza">
+              <h3>name</h3>
+            </div>
+            <div className="imagen-pieza">
+              <img src={n} href id="n" className="img-productos-n" />
+            </div>
           </div>
-          <div>
-            <h3>name</h3>
-            <img src={n} href id="n" className="img-productos-n" />
+          <div className="piezas">
+            <div className="nombre-pieza">
+              <h3>name</h3>
+            </div>
+            <div className="imagen-pieza">
+              <img src={n} href id="n" className="img-productos-n" />
+            </div>
           </div>
-          <div>
-            <h3>name</h3>
-            <img src={n} href id="n" className="img-productos-n" />
+          <div className="piezas">
+            <div className="nombre-pieza">
+              <h3>name</h3>
+            </div>
+            <div className="imagen-pieza">
+              <img src={n} href id="n" className="img-productos-n" />
+            </div>
           </div>
-          <div>
-            <h3>name</h3>
-            <img src={n} href id="n" className="img-productos-n" />
+          <div className="piezas">
+            <div className="nombre-pieza">
+              <h3>name</h3>
+            </div>
+            <div className="imagen-pieza">
+              <img src={n} href id="n" className="img-productos-n" />
+            </div>
           </div>
-          <div>
-            <h3>name</h3>
-            <img src={n} href id="n" className="img-productos-n" />
+          <div className="piezas">
+            <div className="nombre-pieza">
+              <h3>name</h3>
+            </div>
+            <div className="imagen-pieza">
+              <img src={n} href id="n" className="img-productos-n" />
+            </div>
           </div>
-          <div>
-            <h3>name</h3>
-            <img src={n} href id="n" className="img-productos-n" />
+          <div className="piezas">
+            <div className="nombre-pieza">
+              <h3>name</h3>
+            </div>
+            <div className="imagen-pieza">
+              <img src={n} href id="n" className="img-productos-n" />
+            </div>
           </div>
-          <div>
-            <h3>name</h3>
-            <img src={n} href id="n" className="img-productos-n" />
+          <div className="piezas">
+            <div className="nombre-pieza">
+              <h3>name</h3>
+            </div>
+            <div className="imagen-pieza">
+              <img src={n} href id="n" className="img-productos-n" />
+            </div>
           </div>
         </div>
       </div>

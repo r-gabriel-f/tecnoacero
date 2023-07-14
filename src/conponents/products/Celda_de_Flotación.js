@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import "../../conponents/products/EstilosProductos.css";
 import n from "../../assets/img/ojo.png";
 export const Celda_de_Flotación = () => {
@@ -9,48 +9,88 @@ export const Celda_de_Flotación = () => {
           <h2>Repuestos de Celdas de Fundición</h2>
         </div>
         <div className="container-parts-detalles">
-          <div>
-            <h3>name</h3>
-            <img src={n} href id="n" className="img-productos-n" />
+          <div className="piezas">
+            <div className="nombre-pieza">
+              <h3>name</h3>
+            </div>
+            <div className="imagen-pieza">
+              <img src={n} href id="n" className="img-productos-n" />
+            </div>
           </div>
-          <div>
-            <h3>name</h3>
-            <img src={n} href id="n" className="img-productos-n" />
+          <div className="piezas">
+            <div className="nombre-pieza">
+              <h3>name</h3>
+            </div>
+            <div className="imagen-pieza">
+              <img src={n} href id="n" className="img-productos-n" />
+            </div>
           </div>
-          <div>
-            <h3>name</h3>
-            <img src={n} href id="n" className="img-productos-n" />
+          <div className="piezas">
+            <div className="nombre-pieza">
+              <h3>name</h3>
+            </div>
+            <div className="imagen-pieza">
+              <img src={n} href id="n" className="img-productos-n" />
+            </div>
           </div>
-          <div>
-            <h3>name</h3>
-            <img src={n} href id="n" className="img-productos-n" />
+          <div className="piezas">
+            <div className="nombre-pieza">
+              <h3>name</h3>
+            </div>
+            <div className="imagen-pieza">
+              <img src={n} href id="n" className="img-productos-n" />
+            </div>
           </div>
-          <div>
-            <h3>name</h3>
-            <img src={n} href id="n" className="img-productos-n" />
+          <div className="piezas">
+            <div className="nombre-pieza">
+              <h3>name</h3>
+            </div>
+            <div className="imagen-pieza">
+              <img src={n} href id="n" className="img-productos-n" />
+            </div>
           </div>
-          <div>
-            <h3>name</h3>
-            <img src={n} href id="n" className="img-productos-n" />
+          <div className="piezas">
+            <div className="nombre-pieza">
+              <h3>name</h3>
+            </div>
+            <div className="imagen-pieza">
+              <img src={n} href id="n" className="img-productos-n" />
+            </div>
           </div>
-          <div>
-            <h3>name</h3>
-            <img src={n} href id="n" className="img-productos-n" />
+          <div className="piezas">
+            <div className="nombre-pieza">
+              <h3>name</h3>
+            </div>
+            <div className="imagen-pieza">
+              <img src={n} href id="n" className="img-productos-n" />
+            </div>
           </div>
-          <div>
-            <h3>name</h3>
-            <img src={n} href id="n" className="img-productos-n" />
+          <div className="piezas">
+            <div className="nombre-pieza">
+              <h3>name</h3>
+            </div>
+            <div className="imagen-pieza">
+              <img src={n} href id="n" className="img-productos-n" />
+            </div>
           </div>
-          <div>
-            <h3>name</h3>
-            <img src={n} href id="n" className="img-productos-n" />
+          <div className="piezas">
+            <div className="nombre-pieza">
+              <h3>name</h3>
+            </div>
+            <div className="imagen-pieza">
+              <img src={n} href id="n" className="img-productos-n" />
+            </div>
           </div>
-          <div>
-            <h3>name</h3>
-            <img src={n} href id="n" className="img-productos-n" />
+          <div className="piezas">
+            <div className="nombre-pieza">
+              <h3>name</h3>
+            </div>
+            <div className="imagen-pieza">
+              <img src={n} href id="n" className="img-productos-n" />
+            </div>
           </div>
         </div>
       </div>
     </section>
- )
-}
+  );
+};

@@ -65,7 +65,7 @@ const Navbar = () => {
           className={`collapse navbar-collapse ${isMenuOpen ? "show" : ""}`}
           id="navbarSupportedContent"
         >
-          <ul class="navbar-nav mx-auto mb-10 mb-lg-0 me-2" >
+          <ul class="navbar-nav mx-auto mb-10 mb-lg-0 me-2">
             <li class="nav-item mx-3">
               <Link
                 class="nav-link"
@@ -126,6 +126,9 @@ const Navbar = () => {
                     Extracción Minera
                   </Link>
                 </li>
+                <li>
+                  <Link className="dropdown-item">Otros</Link>
+                </li>
               </ul>
             </li>
 
@@ -136,7 +139,7 @@ const Navbar = () => {
                 to="/ubicacion"
                 onClick={handleUbicacionClick}
               >
-                Ubicacion
+                Ubicación
               </a>
             </li>
           </ul>

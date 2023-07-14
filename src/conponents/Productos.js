@@ -1,10 +1,16 @@
 import { React, useState } from "react";
 
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "../conponents/Productos.css";
 
 import p from "../assets/img/valores.PNG";
-import molino_bolas from "../assets/img/molino a bolas.PNG";
+import molino_bolas from "../assets/img/molino a bolas.jpg";
+import apronfeader from "../assets/img/apromfeeder.jpg";
+import bonbaslameras from "../assets/img/bonbaslameras.jpg";
+import chancadora from "../assets/img/chancadora.jpg";
+import mesa from "../assets/img/mesa.jpg";
+import celdasdeflotacion from "../assets/img/celdasdeflotacion.jpg";
+
 export const Productos = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -36,7 +42,7 @@ export const Productos = () => {
         </div>
         <div className="container-img-producto">
           <div className="img-producto">
-            <img src={p} href id="p" className="img-productos" />
+            <img src={mesa} href id="p" className="img-productos" />
             <div className="botones-detalles">
               <button
                 type="button"
@@ -80,7 +86,7 @@ export const Productos = () => {
             </p>
           </div>
           <div className="img-producto">
-            <img src={p} href id="p" className="img-productos" />
+            <img src={chancadora} href id="p" className="img-productos" />
             <div className="botones-detalles">
               <button type="button" class="btn btn-primary">
                 Ver Detalles
@@ -91,11 +97,11 @@ export const Productos = () => {
       </div>
       <div className="productos">
         <div className="nomnbre-producto">
-          <h2>Celdas de Floracion</h2>
+          <h2>Celdas de Flotación</h2>
         </div>
         <div className="container-img-producto">
           <div className="img-producto">
-            <img src={p} href id="p" className="img-productos" />
+            <img src={celdasdeflotacion} href id="p" className="img-productos" />
             <div className="botones-detalles">
               <button type="button" class="btn btn-primary">
                 Ver Detalles
@@ -134,7 +140,7 @@ export const Productos = () => {
             </p>
           </div>
           <div className="img-producto">
-            <img src={p} href id="p" className="img-productos" />
+            <img src={bonbaslameras} href id="p" className="img-productos" />
             <div className="botones-detalles">
               <button type="button" class="btn btn-primary">
                 Ver Detalles
@@ -246,7 +252,7 @@ export const Productos = () => {
             </p>
           </div>
           <div className="img-producto">
-            <img src={p} href id="p" className="img-productos" />
+            <img src={apronfeader} href id="p" className="img-productos" />
             <div className="botones-detalles">
               <button type="button" class="btn btn-primary">
                 Ver Detalles

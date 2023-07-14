@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import "../../conponents/products/EstilosProductos.css";
 import ejeypinon from "../../assets/img/molino_a_bola/ejeypinon.jpg";
 import cuello from "../../assets/img/molino_a_bola/cuello.jpg";
@@ -18,49 +18,105 @@ export const Molino_a_Bolas = () => {
           <h2>Repuestos de Molino a Bolas</h2>
         </div>
         <div className="container-parts-detalles">
-          <div>
-            <h3>Piñon y Eje</h3>
-            <img src={ejeypinon} href id="n" className="img-productos-n" />
+          <div className="piezas">
+            <div className="nombre-pieza">
+              <h3>Piñon y Eje</h3>
+            </div>
+            <div className="imagen-pieza">
+              <img src={ejeypinon} href id="n" className="img-productos-n" />
+            </div>
           </div>
-          <div>
-            <h3>Cuello</h3>
-            <img src={cuello} href id="n" className="img-productos-n" />
+          <div className="piezas">
+            <div className="nombre-pieza">
+              <h3>Cuello</h3>
+            </div>
+            <div className="imagen-pieza">
+              <img src={cuello} href id="n" className="img-productos-n" />
+            </div>
           </div>
-          <div>
-            <h3>Descanso Para Cuello</h3>
-            <img src={descansoparacuello} href id="n" className="img-productos-n" />
+          <div className="piezas">
+            <div className="nombre-pieza">
+              <h3>Descanso Para Cuello</h3>
+            </div>
+            <div className="imagen-pieza">
+              <img
+                src={descansoparacuello}
+                href
+                id="n"
+                className="img-productos-n"
+              />
+            </div>
           </div>
-          <div>
-            <h3>Catalina</h3>
-            <img src={catalina} href id="n" className="img-productos-n" />
+
+          <div className="piezas">
+            <div className="nombre-pieza">
+              <h3>Catalina</h3>
+            </div>
+            <div className="imagen-pieza">
+              <img src={catalina} href id="n" className="img-productos-n" />
+            </div>
           </div>
-          <div>
-            <h3>Soleras</h3>
-            <img src={soleras} href id="n" className="img-productos-n" />
+
+          <div className="piezas">
+            <div className="nombre-pieza">
+              <h3>Soleras</h3>
+            </div>
+            <div className="imagen-pieza">
+              <img src={soleras} href id="n" className="img-productos-n" />
+            </div>
           </div>
-          <div>
-            <h3>Bolas de Acero</h3>
-            <img src={bolasdeacero} href id="n" className="img-productos-n" />
+
+          <div className="piezas">
+            <div className="nombre-pieza">
+              <h3>Bolas de Acero</h3>
+            </div>
+            <div className="imagen-pieza">
+              <img src={bolasdeacero} href id="n" className="img-productos-n" />
+            </div>
           </div>
-          <div>
-            <h3>Polea</h3>
-            <img src={polea} href id="n" className="img-productos-n" />
+
+          <div className="piezas">
+            <div className="nombre-pieza">
+              <h3>Polea</h3>
+            </div>
+            <div className="imagen-pieza">
+              <img src={polea} href id="n" className="img-productos-n" />
+            </div>
           </div>
-          <div>
-            <h3>Tapa</h3>
-            <img src={tapa} href id="n" className="img-productos-n" />
+
+          <div className="piezas">
+            <div className="nombre-pieza">
+              <h3>Tapa</h3>
+            </div>
+            <div className="imagen-pieza">
+              <img src={tapa} href id="n" className="img-productos-n" />
+            </div>
           </div>
-          <div>
-            <h3>Trunion</h3>
-            <img src={trunion} href id="n" className="img-productos-n" />
+
+          <div className="piezas">
+            <div className="nombre-pieza">
+              <h3>Trunion</h3>
+            </div>
+            <div className="imagen-pieza">
+              <img src={trunion} href id="n" className="img-productos-n" />
+            </div>
           </div>
-          <div>
-            <h3>Trunion</h3>
-            <img src={trunionretocado} href id="n" className="img-productos-n" />
+
+          <div className="piezas">
+            <div className="nombre-pieza">
+              <h3>Trunion</h3>
+            </div>
+            <div className="imagen-pieza">
+              <img
+                src={trunionretocado}
+                href
+                id="n"
+                className="img-productos-n"
+              />
+            </div>
           </div>
-          
         </div>
       </div>
     </section>
-  )
-}
+  );
+};

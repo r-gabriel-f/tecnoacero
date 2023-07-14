@@ -1,8 +1,6 @@
 .container-productosestilos {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   margin-top: 60px;
 }
 
@@ -19,7 +17,7 @@
 .container-parts-detalles {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-column-gap: 10px;
+  grid-column-gap: 50px;
   grid-row-gap: 50px;
   margin-top: 30px;
   justify-content: center;
@@ -28,6 +26,20 @@
 
 .container-parts-detalles div {
   text-align: center;
+}
+
+.piezas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.piezas .nombre-pieza {
+  width: 150px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .img-productos-n {

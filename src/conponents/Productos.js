@@ -3,7 +3,6 @@ import { React, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../conponents/Productos.css";
 
-import p from "../assets/img/valores.PNG";
 import molino_bolas from "../assets/img/molino a bolas.jpg";
 import apronfeader from "../assets/img/apromfeeder.jpg";
 import bonbaslameras from "../assets/img/bonbaslameras.jpg";
@@ -27,10 +26,31 @@ export const Productos = () => {
     setIsMenuOpen(false);
   };
 
+  //chancadora
+  const handlechancadoraClick = () => {
+    navigate("/productos/maquinaria/chancadora");
+    setIsMenuOpen(false);
+  };
+  //celdas de flotacion
+  const handleceldasdeflotacionClick = () => {
+    navigate("/productos/maquinaria/celda_de_flotacion");
+    setIsMenuOpen(false);
+  };
+  //bombas lameras
+  const handlebombaslamerasClick = () => {
+    navigate("/productos/maquinaria/bombas_lameras");
+    setIsMenuOpen(false);
+  };
+
   //molino a bolas
 
   const handlemolinobolasClick = () => {
     navigate("/productos/maquinaria/molino_a_bolas");
+    setIsMenuOpen(false);
+  };
+  //aprom freeder
+  const handleapromfeederClick = () => {
+    navigate("/productos/maquinaria/aprom_feeder");
     setIsMenuOpen(false);
   };
 
@@ -56,15 +76,47 @@ export const Productos = () => {
           </div>
           <div className="descripcion-producto">
             <h3>Descripcion</h3>
-            <p>
-              Superar las expectativas de nuestros clientes con satisfacer las
-              necesidades y los requerimientos de las industrias mediante la
-              excelencia y necesidades y los requerimientos de las industrias
-              mediante la excelencia y calidad de los productos que elaboramos,
-              trabajar con entrega y prefesionalismo para ofrecer la mejor
-              calidad, beneficiando a nuestros clientes con la adquisición de
-              sus pedidos (acero)
-            </p>
+            <table>
+              <thead>
+                <tr>
+                  <th>Categoría</th>
+                  <th>--------</th>
+                  <th>--------</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>TAMAÑO PARTICULA</td>
+
+                  <td>1</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>MOTOR ELECTRICO</td>
+
+                  <td>1</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>PESO(DESPACHO)</td>
+
+                  <td>1</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>VOLUMEN (DESPACHADO)</td>
+
+                  <td>1</td>
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>CATEGORIA</td>
+
+                  <td>1</td>
+                  <td>1</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
@@ -76,19 +128,31 @@ export const Productos = () => {
           <div className="descripcion-producto">
             <h3>Descripcion</h3>
             <p>
-              Superar las expectativas de nuestros clientes con satisfacer las
-              necesidades y los requerimientos de las industrias mediante la
-              excelencia y necesidades y los requerimientos de las industrias
-              mediante la excelencia y calidad de los productos que elaboramos,
-              trabajar con entrega y prefesionalismo para ofrecer la mejor
-              calidad, beneficiando a nuestros clientes con la adquisición de
-              sus pedidos (acero)
+              También llamada trituradora de quijada, es una máquina de
+              trituración de primer nivel (trituración gruesa y media), tritura
+              minerales y demás materiales sólidos.
             </p>
+            <p>Caracteristicas:</p>
+            <ul>
+              <li>Alto rendimiento para triturar</li>
+              <li>Uniformidad en la granulometría</li>
+              <li>Estructura sencilla</li>
+              <li>Fácil reparación y mantenimiento</li>
+              <li>Fácil de controlar y operar</li>
+              <li>Reducidos costos de operación</li>
+              <li>Puertos de alimentación y descarga ajustables</li>
+              <li>Bajo nivel de ruido y menos polvo</li>
+            </ul>
           </div>
           <div className="img-producto">
             <img src={chancadora} href id="p" className="img-productos" />
             <div className="botones-detalles">
-              <button type="button" class="btn btn-primary">
+              <button
+                type="button"
+                class="btn btn-primary"
+                to="/productos/maquinaria/chancadora"
+                onClick={handlechancadoraClick}
+              >
                 Ver Detalles
               </button>
             </div>
@@ -101,9 +165,19 @@ export const Productos = () => {
         </div>
         <div className="container-img-producto">
           <div className="img-producto">
-            <img src={celdasdeflotacion} href id="p" className="img-productos" />
+            <img
+              src={celdasdeflotacion}
+              href
+              id="p"
+              className="img-productos"
+            />
             <div className="botones-detalles">
-              <button type="button" class="btn btn-primary">
+              <button
+                type="button"
+                class="btn btn-primary"
+                to="/productos/maquinaria/celda_de_flotacion"
+                onClick={handleceldasdeflotacionClick}
+              >
                 Ver Detalles
               </button>
             </div>
@@ -129,20 +203,78 @@ export const Productos = () => {
         <div className="container-img-producto">
           <div className="descripcion-producto">
             <h3>Descripcion</h3>
-            <p>
-              Superar las expectativas de nuestros clientes con satisfacer las
-              necesidades y los requerimientos de las industrias mediante la
-              excelencia y necesidades y los requerimientos de las industrias
-              mediante la excelencia y calidad de los productos que elaboramos,
-              trabajar con entrega y prefesionalismo para ofrecer la mejor
-              calidad, beneficiando a nuestros clientes con la adquisición de
-              sus pedidos (acero)
-            </p>
+            <table>
+              <thead>
+                <tr>
+                  <th>Bombas</th>
+                  <th>Tamaño</th>
+                  <th>Caudal Máximo</th>
+                  <th>Presión</th>
+                  <th>Temperatura</th>
+                  <th>TDH</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>WIFLEY</td>
+                  <td>6</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>WIFLEY</td>
+                  <td>3</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>SYMONACO</td>
+                  <td>6</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>GALIGUER</td>
+                  <td>2 1/2 X 2</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>DENVER SRL</td>
+                  <td>5X4</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>VOGEL</td>
+                  <td>5X4</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
           </div>
           <div className="img-producto">
             <img src={bonbaslameras} href id="p" className="img-productos" />
             <div className="botones-detalles">
-              <button type="button" class="btn btn-primary">
+              <button
+                type="button"
+                class="btn btn-primary"
+                to="/productos/maquinaria/bombas_lameras"
+                onClick={handlebombaslamerasClick}
+              >
                 Ver Detalles
               </button>
             </div>
@@ -241,20 +373,66 @@ export const Productos = () => {
         <div className="container-img-producto">
           <div className="descripcion-producto">
             <h3>Descripcion</h3>
-            <p>
-              Superar las expectativas de nuestros clientes con satisfacer las
-              necesidades y los requerimientos de las industrias mediante la
-              excelencia y necesidades y los requerimientos de las industrias
-              mediante la excelencia y calidad de los productos que elaboramos,
-              trabajar con entrega y prefesionalismo para ofrecer la mejor
-              calidad, beneficiando a nuestros clientes con la adquisición de
-              sus pedidos (acero)
-            </p>
+            <table>
+              <thead>
+                <tr>
+                  <th>Modelo</th>
+                  <th>--------</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>TAMAÑO </td>
+
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>CAUDAL MAXIMO</td>
+
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>ALTURA MANOMÉTRICA MÁXIMA</td>
+
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>TAMAÑO MÁXIMO DE SÓLIDOS</td>
+
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>TOLERANCIA A ABRASIÓN</td>
+
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>ENTRADA</td>
+
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>SALIDA</td>
+
+                  <td>1</td>
+                </tr>
+                <tr>
+                  <td>MOTOR</td>
+
+                  <td>1</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
           <div className="img-producto">
             <img src={apronfeader} href id="p" className="img-productos" />
             <div className="botones-detalles">
-              <button type="button" class="btn btn-primary">
+              <button
+                type="button"
+                class="btn btn-primary"
+                to="/productos/maquinaria/aprom_feeder"
+                onClick={handleapromfeederClick}
+              >
                 Ver Detalles
               </button>
             </div>

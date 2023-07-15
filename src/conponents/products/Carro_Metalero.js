@@ -1,13 +1,12 @@
-import React from "react";
+import React from 'react'
 import "../../conponents/products/EstilosProductos.css";
 import n from "../../assets/img/ojo.png";
-
-export const Chancadora = () => {
+export const Carro_Metalero = () => {
   return (
     <section className="container-productosestilos">
       <div className="container-parts">
         <div className="container-parts-name">
-          <h2>Repuestos de Chancadora</h2>
+          <h2>Repuestos de Carro Metalero</h2>
         </div>
         <div className="container-parts-detalles">
           <div className="piezas">
@@ -93,5 +92,5 @@ export const Chancadora = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}

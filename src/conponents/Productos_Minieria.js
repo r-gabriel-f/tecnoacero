@@ -33,226 +33,81 @@ export const Productos_Minieria = () => {
     setIsMenuOpen(false);
   };
   return (
-    <sectionm className="container-productos">
-      <div className="productos">
-        <div className="nomnbre-producto">
-          <h2>Locomotora Rhyno</h2>
-        </div>
-        <div className="container-img-producto">
-          <div className="img-producto">
-            <img src={locomotorarhino} href id="p" className="img-productos" />
-            <div className="botones-detalles">
-              <button
-                type="button"
-                class="btn btn-primary"
-                to="/productos/extracción_minera/locomotora_rhyno"
-                onClick={handlelocomotorarhynoClick}
-              >
-                Ver Detalles
-              </button>
-            </div>
-          </div>
-          <div className="descripcion-producto">
-            <h3>Descripcion</h3>
-            <table>
-              <thead>
-                <tr>
-                  <th>Modelo</th>
-                  <th>3 TN</th>
-                  <th>4 TN</th>
-                  <th>10 TN</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Capacidad</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>Motor</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>Control</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>Resistencias</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>Transmisión</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>Trocha</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>Velocidad Mínima (KM/HR)</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>Velocidad Máxima</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>Jale Óptimo</td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
+    <section className="container-productos">
+      <div className="categoria-producto">
+        <h2>Productos de Extraccion Minera</h2>
       </div>
-      <div className="productos">
-        <div className="nomnbre-producto">
-          <h2>Carro Metalero</h2>
-        </div>
-        <div className="container-img-producto">
-          <div className="descripcion-producto">
-            <h3>Descripcion</h3>
-            <table>
-              <thead>
-                <tr>
-                  <th>Carro</th>
-                  <th>V-30</th>
-                  <th>V-40</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Longitud Tolva</td>
-                  <td>1220 mm</td>
-                  <td>1820 mm</td>
-                </tr>
-                <tr>
-                  <td>Altura Tolva</td>
-                  <td>819 mm</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>Peso (TN)</td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>Alt/S Riel</td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>Dist. Ejes</td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>Trocha (mm)</td>
-                  <td></td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>Capacidad de Carga</td>
-                  <td></td>
-                  <td></td>
-                </tr>
-              </tbody>
-            </table>
+      <div className="grid-productos">
+        <div className="productos">
+          <div className="nomnbre-producto">
+            <h2>Locomotora Rhyno</h2>
           </div>
-          <div className="img-producto">
-            <img src={carrito} href id="p" className="img-productos" />
-            <div className="botones-detalles">
-              <button
-                type="button"
-                class="btn btn-primary"
-                to="/productos/extracción_minera/carro_metalero"
-                onClick={handlecarrometaleroClick}
-              >
-                Ver Detalles
-              </button>
+          <div className="container-img-producto">
+            <div className="img-producto">
+              <img
+                src={locomotorarhino}
+                href
+                id="p"
+                className="img-productos"
+              />
+
+              <div className="botones-detalles">
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  to="/productos/extracción_minera/locomotora_rhyno"
+                  onClick={handlelocomotorarhynoClick}
+                >
+                  Ver Detalles
+                </button>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div className="productos">
-        <div className="nomnbre-producto">
-          <h2>Carro Granby</h2>
-        </div>
-        <div className="container-img-producto">
-          <div className="img-producto">
-            <img src={carrogranby} href id="p" className="img-productos" />
-            <div className="botones-detalles">
-              <button
-                type="button"
-                class="btn btn-primary"
-                to="/productos/extracción_minera/carro_granby"
-                onClick={handlecarrogranbyClick}
-              >
-                Ver Detalles
-              </button>
+        <div className="productos">
+          <div className="nomnbre-producto">
+            <h2>Carro Metalero</h2>
+          </div>
+          <div className="container-img-producto">
+            <div className="img-producto">
+              <img src={carrito} href id="p" className="img-productos" />
+
+              <div className="botones-detalles">
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  to="/productos/extracción_minera/carro_metalero"
+                  onClick={handlecarrometaleroClick}
+                >
+                  Ver Detalles
+                </button>
+              </div>
             </div>
           </div>
-          <div className="descripcion-producto">
-            <h3>Descripcion</h3>
-            <table>
-              <thead>
-                <tr>
-                  <th>Carro</th>
-                  <th>Gramby</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Longitud Tolva</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>Altura Tolva</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>Peso (TN)</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>Alt/S Riel</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>Dist. Ejes</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>Trocha (mm)</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>Capacidad de Carga</td>
-                  <td></td>
-                </tr>
-              </tbody>
-            </table>
+        </div>
+        <div className="productos">
+          <div className="nomnbre-producto">
+            <h2>Carro Granby</h2>
+          </div>
+          <div className="container-img-producto">
+            <div className="img-producto">
+              <img src={carrogranby} href id="p" className="img-productos" />
+
+              <div className="botones-detalles">
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  to="/productos/extracción_minera/carro_granby"
+                  onClick={handlecarrogranbyClick}
+                >
+                  Ver Detalles
+                </button>
+              </div>
+            </div>
+            <div className="descripcion-producto"></div>
           </div>
         </div>
       </div>
-    </sectionm>
+    </section>
   );
 };

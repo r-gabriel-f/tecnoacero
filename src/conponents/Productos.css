@@ -2,7 +2,7 @@
   display: grid;
   margin-top: 60px;
 }
-.categoria-producto{
+.categoria-producto {
   margin-top: 20px;
   text-align: center;
 }
@@ -16,7 +16,8 @@
   padding: 20px;
 }
 
-.nomnbre-producto h2, .nomnbre-producto h3 {
+.nomnbre-producto h2,
+.nomnbre-producto h3 {
   text-align: center;
   margin-bottom: 10px;
 }
@@ -26,8 +27,8 @@
 }
 
 .img-productos {
-  width: 550px;
-  height: 600px;
+  width: 500px;
+  height: 550px;
 }
 
 .botones-detalles {
@@ -35,13 +36,5 @@
 }
 
 .btn {
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  padding: 8px 16px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 14px;
   cursor: pointer;
 }

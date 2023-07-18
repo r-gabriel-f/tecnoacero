@@ -57,7 +57,7 @@ export const Productos = () => {
   return (
     <section className="container-productos">
       <div className="categoria-producto">
-        <h2>Productos de Mineria</h2>
+        <h2>Productos de Maquinaria</h2>
       </div>
       <div className="grid-productos">
         <div className="productos">

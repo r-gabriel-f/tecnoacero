@@ -18,6 +18,7 @@ import { ApromFeeder } from "./conponents/products/ApromFeeder";
 import { Locomotora_Rhyno } from "./conponents/products/Locomotora_Rhyno";
 import { Carro_Metalero } from "./conponents/products/Carro_Metalero";
 import { Carro_Granby } from "./conponents/products/Carro_Granby";
+import EmailForm from "./conponents/EmailForm";
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
     <Router>
       <div>
         <Navbar />
+        <EmailForm></EmailForm>
         <Routes>
           <Route path="/" element={<Inicio />} />
           <Route path="/institucion" element={<Institucion />} />

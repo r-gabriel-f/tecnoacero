@@ -93,7 +93,7 @@ const Navbar = () => {
                 to="/servicios"
                 onClick={handleserviciosClick}
               >
-                Servicios
+                Clientes
               </Link>
             </li>
 

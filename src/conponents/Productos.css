@@ -2,83 +2,46 @@
   display: grid;
   margin-top: 60px;
 }
-
-.nomnbre-producto {
+.categoria-producto{
+  margin-top: 20px;
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
 }
-.container-img-producto {
+.grid-productos {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 50px;
-  margin-left: 10px;
-  margin-right: 10px;
-  
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
 }
 
-.img-producto {
-  display: flex;
-  text-align: left;
-  margin-left: 10px;
-  margin-right: 10px;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  
+.productos {
+  padding: 20px;
 }
 
-.descripcion-producto {
- 
-  margin-bottom: 20px;
-  margin-top: 20px;
-  margin-left: 30px;
-  margin-right: 10px;
-  text-align: justify;
-  display: flex;
-  align-items: start;
-  justify-content: center;
-  flex-direction: column;
-}
-.descripcion-producto p {
-  margin-right: 30px;
-}
-.img-producto img {
-  width: 500px;
-  height: 450px;
-  border-radius: 10px;
-  border: 1px solid black;
-}
-.botones-detalles button {
-  display: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.img-producto:hover .botones-detalles button {
-  display: block;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-th,
-td {
-  padding: 8px;
+.nomnbre-producto h2, .nomnbre-producto h3 {
   text-align: center;
-  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
 }
 
-th {
-  background-color: #f2f2f2;
+.container-img-producto {
+  text-align: center;
 }
 
-tr:hover {
-  background-color: #f5f5f5;
+.img-productos {
+  width: 550px;
+  height: 600px;
+}
+
+.botones-detalles {
+  margin-top: 10px;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
 }

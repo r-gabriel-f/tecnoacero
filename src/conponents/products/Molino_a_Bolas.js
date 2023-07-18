@@ -15,7 +15,7 @@ export const Molino_a_Bolas = () => {
     <section className="container-productosestilos">
       <div className="container-parts">
         <div className="container-parts-name">
-          <h2>Repuestos de Molino a Bolas</h2>
+          <h2>Repuestos de Mesa Concentradora</h2>
         </div>
         <div className="container-parts-detalles">
           <div className="piezas">
@@ -116,6 +116,18 @@ export const Molino_a_Bolas = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="container-descripcion-partes">
+        <h3>Descripcion</h3>
+        <p>
+          Superar las expectativas de nuestros clientes con satisfacer las
+          necesidades y los requerimientos de las industrias mediante la
+          excelencia y necesidades y los requerimientos de las industrias
+          mediante la excelencia y calidad de los productos que elaboramos,
+          trabajar con entrega y prefesionalismo para ofrecer la mejor calidad,
+          beneficiando a nuestros clientes con la adquisición de sus pedidos
+          (acero)
+        </p>
       </div>
     </section>
   );

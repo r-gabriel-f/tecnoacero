@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import "../../conponents/products/EstilosProductos.css";
 import n from "../../assets/img/ojo.png";
 export const Locomotora_Rhyno = () => {
@@ -91,6 +91,18 @@ export const Locomotora_Rhyno = () => {
           </div>
         </div>
       </div>
+      <div className="container-descripcion-partes">
+        <h3>Descripcion</h3>
+        <p>
+          Superar las expectativas de nuestros clientes con satisfacer las
+          necesidades y los requerimientos de las industrias mediante la
+          excelencia y necesidades y los requerimientos de las industrias
+          mediante la excelencia y calidad de los productos que elaboramos,
+          trabajar con entrega y prefesionalismo para ofrecer la mejor calidad,
+          beneficiando a nuestros clientes con la adquisición de sus pedidos
+          (acero)
+        </p>
+      </div>
     </section>
-  )
-}
+  );
+};

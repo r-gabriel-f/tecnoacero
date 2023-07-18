@@ -92,6 +92,18 @@ export const Mesa_Concentradora = () => {
           </div>
         </div>
       </div>
+      <div className="container-descripcion-partes">
+        <h3>Descripcion</h3>
+        <p>
+          Superar las expectativas de nuestros clientes con satisfacer las
+          necesidades y los requerimientos de las industrias mediante la
+          excelencia y necesidades y los requerimientos de las industrias
+          mediante la excelencia y calidad de los productos que elaboramos,
+          trabajar con entrega y prefesionalismo para ofrecer la mejor calidad,
+          beneficiando a nuestros clientes con la adquisición de sus pedidos
+          (acero)
+        </p>
+      </div>
     </section>
   );
 };

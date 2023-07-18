@@ -1,22 +1,28 @@
-import  {React, useState, useEffect } from "react";
+import { React, useState, useEffect } from "react";
 import nn from "../assets/img/ojo.png";
-import azucarera from "../assets/img/servicios/azucarera.jpg"
-import cementera from "../assets/img/servicios/cementera.jpg"
-import mineria from "../assets/img/servicios/mineria.jpg"
-import petrolera from "../assets/img/servicios/petrolera.jpg"
+import azucarera from "../assets/img/servicios/azucarera.jpg";
+import cementera from "../assets/img/servicios/cementera.jpg";
+import mineria from "../assets/img/servicios/mineria.jpg";
+import petrolera from "../assets/img/servicios/petrolera.jpg";
 
-
-import acerodecarbono from "../assets/img/fabricamos/acerodecarbono.jpg"
-import aceroinoxidable from "../assets/img/fabricamos/acerosinoxidables.jpg"
-import broncedealuminio from "../assets/img/fabricamos/broncealuminio.jpg"
-import broncefosforoso from "../assets/img/fabricamos/broncefosforoso.jpg"
-import fierrofundido from "../assets/img/fabricamos/fierrofundido.jpg"
+import acerodecarbono from "../assets/img/fabricamos/acerodecarbono.jpg";
+import aceroinoxidable from "../assets/img/fabricamos/acerosinoxidables.jpg";
+import broncedealuminio from "../assets/img/fabricamos/broncealuminio.jpg";
+import broncefosforoso from "../assets/img/fabricamos/broncefosforoso.jpg";
+import fierrofundido from "../assets/img/fabricamos/fierrofundido.jpg";
 
 export const Servicios = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const [currentImageFrabricamosIndex, setCurrentImageFabricamosIndex] = useState(0);
+  const [currentImageFrabricamosIndex, setCurrentImageFabricamosIndex] =
+    useState(0);
   const images = [azucarera, cementera, mineria, petrolera];
-  const imagesFrabricamos = [fierrofundido, broncedealuminio, broncefosforoso, acerodecarbono, aceroinoxidable]
+  const imagesFrabricamos = [
+    fierrofundido,
+    broncedealuminio,
+    broncefosforoso,
+    acerodecarbono,
+    aceroinoxidable,
+  ];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -28,30 +34,30 @@ export const Servicios = () => {
     };
   }, []);
 
-  useEffect(() =>{
-    const Interval = setInterval(() =>{
-      setCurrentImageFabricamosIndex((prevIndex)=>(prevIndex+1)%imagesFrabricamos.length);
+  useEffect(() => {
+    const Interval = setInterval(() => {
+      setCurrentImageFabricamosIndex(
+        (prevIndex) => (prevIndex + 1) % imagesFrabricamos.length
+      );
     }, 5000);
-    return () =>{
+    return () => {
       clearInterval(Interval);
     };
-  },[]);
-
-
+  }, []);
 
   return (
     <section className="container-productos">
       <div className="productos">
         <div className="nomnbre-producto">
-          <h2>Servicion</h2>
+          <h2>Clientes</h2>
         </div>
         <div className="container-img-producto">
           <div className="img-producto">
-          <img
-          src={images[currentImageIndex]}
-          alt="Producto"
-          className="img-productos"
-        />
+            <img
+              src={images[currentImageIndex]}
+              alt="Producto"
+              className="img-productos"
+            />
           </div>
           <div className="descripcion-producto">
             <p>TECNOACERO S.R.L.</p>
@@ -95,11 +101,11 @@ export const Servicios = () => {
             </ol>
           </div>
           <div className="img-producto">
-          <img
-          src={imagesFrabricamos[currentImageFrabricamosIndex]}
-          alt="Producto"
-          className="img-productos"
-        />
+            <img
+              src={imagesFrabricamos[currentImageFrabricamosIndex]}
+              alt="Producto"
+              className="img-productos"
+            />
           </div>
         </div>
       </div>

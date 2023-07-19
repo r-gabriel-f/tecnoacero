@@ -1,0 +1,33 @@
+.container-img-servicios {
+  display: flex;
+  align-items: center; /* Centrar verticalmente los elementos */
+  justify-content: center; /* Centrar horizontalmente los elementos */
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.img-servicios {
+  flex: 1; /* El 50% del ancho del contenedor */
+}
+
+.descripcion-servicios {
+  flex: 1; /* El 50% del ancho del contenedor */
+}
+
+.img-servicio {
+  width: 500px;
+  height: 550px;
+  border-radius: 15px;
+  border: 2px solid #000;
+}
+.container-servicios {
+  margin-top: 60px;
+}
+.contenido {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.nombre-servicios {
+  text-align: center;
+  padding-top: 30px;
+}

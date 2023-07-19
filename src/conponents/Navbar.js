@@ -133,14 +133,14 @@ const Navbar = () => {
             </li>
 
             <li class="nav-item mx-3">
-              <a
+              <Link
                 class="nav-link"
                 aria-current="page"
                 to="/contacto"
                 onClick={handleUbicacionClick}
               >
-                Contacto
-              </a>
+                Contactos
+              </Link>
             </li>
           </ul>
         </div>

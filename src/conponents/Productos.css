@@ -2,17 +2,27 @@
   display: grid;
   margin-top: 60px;
 }
+
 .categoria-producto {
   margin-top: 20px;
   text-align: center;
 }
+
 .grid-productos {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  grid-gap: 50px;
+}
+
+/* New container class to wrap the productos divs */
+.productos-container {
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+  flex-wrap: wrap; /* Allow flex items to wrap to a new line */
 }
 
 .productos {
+  width: 100%; /* Set the width to 100% so that each product takes the full width of its container */
   padding: 20px;
 }
 
@@ -24,6 +34,7 @@
 
 .container-img-producto {
   text-align: center;
+  position: relative;
 }
 
 .img-productos {
@@ -31,10 +42,21 @@
   height: 550px;
 }
 
+.btn {
+  cursor: pointer;
+}
+
 .botones-detalles {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
   margin-top: 10px;
 }
 
-.btn {
-  cursor: pointer;
+.container-img-producto:hover .botones-detalles {
+  opacity: 1;
 }

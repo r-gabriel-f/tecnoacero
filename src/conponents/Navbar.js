@@ -32,9 +32,9 @@ const Navbar = () => {
     setIsMenuOpen(false);
   };
 
-  //ubicacion
+  //contacto
   const handleUbicacionClick = () => {
-    navigate("/ubicacion");
+    navigate("/contacto");
     setIsMenuOpen(false);
   };
 
@@ -136,10 +136,10 @@ const Navbar = () => {
               <a
                 class="nav-link"
                 aria-current="page"
-                to="/ubicacion"
+                to="/contacto"
                 onClick={handleUbicacionClick}
               >
-                Ubicación
+                Contacto
               </a>
             </li>
           </ul>

@@ -27,12 +27,11 @@ function App() {
     <Router>
       <div>
         <Navbar />
-        <EmailForm></EmailForm>
         <Routes>
           <Route path="/" element={<Inicio />} />
           <Route path="/institucion" element={<Institucion />} />
           <Route path="/servicios" element={<Servicios />} />
-          <Route path="/ubicacion" element={<Mapa />} />
+          <Route path="/contacto" element={<Mapa />} />
           <Route path="/productos/maquinaria" element={<Productos />} />
           <Route path="/productos/maquinaria/mesa_concentradora" element={<Mesa_Concentradora />} />
           <Route path="/productos/maquinaria/chancadora" element={<Chancadora />} />

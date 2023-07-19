@@ -5,24 +5,23 @@ const cors = require('cors');
 
 app.use(cors());
 app.use(express.json());
-
 app.post('/send-email', (req, res) => {
-  const { from, subject, text } = req.body;
+  const { nombre, from, subject, text } = req.body;
 
   const transporter = nodemailer.createTransport({
     host: 'smtp.gmail.com',
     port: 587,
     auth: {
       user: 'tecnoacero56@gmail.com',
-      pass: 'hrqwbhegwdmntuss'
+      pass: 'ocaoybholgybvapv'
     }
   });
 
   const mailOptions = {
-    from: from,
+    from: 'tecnoacero56@gmail.com',
     to: 'tecnoacero56@gmail.com',
     subject: subject,
-    text: text
+    text: `Nombre: ${nombre}\nEmail: ${from}\nMensaje: ${text}`
   };
 
   transporter.sendMail(mailOptions, (error, info) => {
@@ -35,6 +34,7 @@ app.post('/send-email', (req, res) => {
     }
   });
 });
+
 
 const port = process.env.PORT || 3001;
 app.listen(port, () => {

@@ -14,32 +14,37 @@ export const ContactoEnd = () => {
               <p>Email</p>
             </div>
             <div>
-              <ion-icon name="logo-facebook" className="icon"></ion-icon>
-              <p>facebook</p>
+              <a
+                href="https://www.facebook.com/tecnoacerobolivia"
+                target="_banks"
+              >
+                <ion-icon name="logo-facebook" className="icon"></ion-icon>
+                <p>facebook</p>
+              </a>
             </div>
             <div>
               <ion-icon name="logo-whatsapp" className="icon"></ion-icon>
               <p>Whatsapp</p>
             </div>
             <div>
-              <ion-icon name="logo-linkedin" className="icon"></ion-icon>
-              <p>Linkedin</p>
-            </div>
-            <div>
-              <ion-icon name="logo-instagram" className="icon"></ion-icon>
-              <p>Instagram</p>
+              <a
+                href="https://bo.linkedin.com/in/tecnoacerobolivia"
+                target="_banks"
+              >
+                <ion-icon name="logo-linkedin" className="icon"></ion-icon>
+                <p>Linkedin</p>
+              </a>
             </div>
           </div>
-          
         </div>
         <div className="container-derechos">
-            <footer className="Derechos">
-              <p>
-                &copy; 2023 Tecnoacero S.R.L. <br />
-                Todos los derechos reservados.
-              </p>
-            </footer>
-          </div>
+          <footer className="Derechos">
+            <p>
+              &copy; 2023 Tecnoacero S.R.L. <br />
+              Todos los derechos reservados.
+            </p>
+          </footer>
+        </div>
       </div>
     </section>
   );

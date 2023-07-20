@@ -1,6 +1,12 @@
 .container-mapa {
   margin-top: 60px;
 }
+.contenido a{
+  text-decoration: none;
+  color: black;
+  display: flex; 
+  align-items: center;
+}
 .formulario {
   display: flex;
   height: 99vh;
@@ -18,18 +24,19 @@
   margin-right: 20px;
   margin-top: 50px;
 }
-.ico-name {
+
+.ico-name {      
   display: flex;
   align-items: center;
-  margin-top: 30px;
-  margin-left: 50px;
-  
+  margin-top: 20px;
+  justify-content: center;
 }
+
 .ico-name p {
   margin-left: 20px;
 }
 #facebook {
-  color: #3b5998; /* Color de Facebook */
+  color: #1F7BF2;
   cursor: pointer;
   transition: transform 0.3s; 
 }
@@ -41,12 +48,19 @@
 #linkedin {
   color: #126bc4;
   cursor: pointer;
-  transition: transform 0.3s; 
+  transition: transform 0.3s;
+  margin-left: 20px; 
+}
+#direccion{
+  cursor: pointer;
+  transition: transform 0.3s;
+  margin-left: 90px; 
 }
 #facebook:hover,
 #whatsapp:hover,
 #linkedin:hover,
-#telefono:hover {
+#telefono:hover,
+#direccion:hover {
   transform: scale(1.1);
 }
 .gmap_iframe {

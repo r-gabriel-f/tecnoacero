@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import Swal from "sweetalert2";
 import "./EmailFrom.css";
 
 const EmailForm = () => {
@@ -18,8 +19,13 @@ const EmailForm = () => {
         subject,
         text,
       });
-
-      console.log(response.data);
+      Swal.fire({
+        position: "center",
+        icon: "success",
+        title: "¡El correo electrónico se envió correctamente!",
+        showConfirmButton: false,
+        timer: 3000,
+      });
 
       // Reinicia los campos del formulario después de enviar el correo electrónico exitosamente
       setNombre("");
@@ -71,7 +77,6 @@ const EmailForm = () => {
             value={text}
             onChange={(e) => setText(e.target.value)}
             placeholder="Ingrese su Mensaje Pofavor :)"
-        
             required
           />
         </div>
@@ -80,5 +85,4 @@ const EmailForm = () => {
     </section>
   );
 };
-
 export default EmailForm;

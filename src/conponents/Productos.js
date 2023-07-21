@@ -3,12 +3,12 @@ import { React, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../conponents/Productos.css";
 
-import molino_bolas from "../assets/img/molino a bolas.jpg";
-import apronfeader from "../assets/img/apromfeeder.jpg";
-import bonbaslameras from "../assets/img/bonbaslameras.jpg";
-import chancadora from "../assets/img/chancadora.jpg";
-import mesa from "../assets/img/mesa.jpg";
-import celdasdeflotacion from "../assets/img/celdasdeflotacion.jpg";
+import molino_bolas from "../assets/img/molino a bolas.png";
+import apronfeader from "../assets/img/apromfeeder.png";
+import bonbaslameras from "../assets/img/bonbaslameras.png";
+import chancadora from "../assets/img/chancadora.png";
+import mesa from "../assets/img/mesa.png";
+import celdasdeflotacion from "../assets/img/celdasdeflotacion.png";
 
 export const Productos = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -57,7 +57,7 @@ export const Productos = () => {
   return (
     <section className="container-productos">
       <div className="categoria-producto">
-        <h2>Productos de Maquinaria</h2>
+        <h2>Maquinaria Minera</h2>
       </div>
       <div className="grid-productos">
         <div className="productos">

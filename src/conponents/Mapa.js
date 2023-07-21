@@ -10,10 +10,11 @@ export const Mapa = () => {
           <div className="contenido">
             <div className="ico-name">
               <ion-icon
-                name="call-outline"
+                name="call"
                 className="icon-contacto"
                 id="telefono"
               ></ion-icon>
+
               <p>
                 Telefono:<br></br>(591-4) 4434888
               </p>

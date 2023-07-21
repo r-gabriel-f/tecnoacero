@@ -2,7 +2,7 @@ import React from "react";
 import "../conponents/Inicio.css";
 export const Inicio = () => {
   return (
-    <section className="container-inicio">
+    <section className="container-inicio" transition-style>
       <div className="container-info">
         <div className="center-content">
           <h1 className="h1-margin">TECNOACERO S.R.L.</h1>

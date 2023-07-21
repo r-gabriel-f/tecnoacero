@@ -6,7 +6,7 @@ import vi from "../assets/img/ojo.png";
 import "../conponents/Institucion.css";
 export const Institucion = () => {
   return (
-    <section className="container-mision-vision">
+    <section className="container-mision-vision" transition-style>
       <div className="mision-vision">
         <div className="mision">
           <h2>MISION</h2>

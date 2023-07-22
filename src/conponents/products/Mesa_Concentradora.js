@@ -5,10 +5,10 @@ import n from "../../assets/img/ojo.png";
 export const Mesa_Concentradora = () => {
   return (
     <section className="container-productosestilos">
+      <div className="container-parts-name">
+        <h2>Repuestos de Mesa Concentradora</h2>
+      </div>
       <div className="container-parts">
-        <div className="container-parts-name">
-          <h2>Repuestos de Mesa Concentradora</h2>
-        </div>
         <div className="container-parts-detalles">
           <div className="piezas">
             <div className="nombre-pieza">

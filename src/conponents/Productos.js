@@ -55,24 +55,24 @@ export const Productos = () => {
   };
 
   return (
-    <section className="container-productos">
+    <section className="container-productos" transition-style>
       <div className="categoria-producto">
         <h2>Maquinaria Minera</h2>
       </div>
       <div className="grid-productos">
         <div className="productos">
           <div className="nomnbre-producto">
-            <h2>Mesa Concentradora</h2>
+            <h2>Molino a Bolas</h2>
           </div>
           <div className="container-img-producto">
             <div className="img-producto">
-              <img src={mesa} href id="p" className="img-productos" />
+              <img src={molino_bolas} href id="p" className="img-productos" />
               <div className="botones-detalles">
                 <button
                   type="button"
                   class="btn btn-primary"
-                  to="/productos/maquinaria/mesa_concentradora"
-                  onClick={handlemesaconcentradoraClick}
+                  to="/productos/maquinaria/molino_a_bolas"
+                  onClick={handlemolinobolasClick}
                 >
                   Ver Detalles
                 </button>
@@ -80,6 +80,7 @@ export const Productos = () => {
             </div>
           </div>
         </div>
+
         <div className="productos">
           <div className="nomnbre-producto">
             <h2>Chancadora</h2>
@@ -93,6 +94,26 @@ export const Productos = () => {
                   class="btn btn-primary"
                   to="/productos/maquinaria/chancadora"
                   onClick={handlechancadoraClick}
+                >
+                  Ver Detalles
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="productos">
+          <div className="nomnbre-producto">
+            <h3>Bombas lameras</h3>
+          </div>
+          <div className="container-img-producto">
+            <div className="img-producto">
+              <img src={bonbaslameras} href id="p" className="img-productos" />
+              <div className="botones-detalles">
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  to="/productos/maquinaria/bombas_lameras"
+                  onClick={handlebombaslamerasClick}
                 >
                   Ver Detalles
                 </button>
@@ -126,19 +147,20 @@ export const Productos = () => {
             <div className="descripcion-producto"></div>
           </div>
         </div>
+
         <div className="productos">
           <div className="nomnbre-producto">
-            <h3>Bombas lameras</h3>
+            <h2>Mesa Concentradora</h2>
           </div>
           <div className="container-img-producto">
             <div className="img-producto">
-              <img src={bonbaslameras} href id="p" className="img-productos" />
+              <img src={mesa} href id="p" className="img-productos" />
               <div className="botones-detalles">
                 <button
                   type="button"
                   class="btn btn-primary"
-                  to="/productos/maquinaria/bombas_lameras"
-                  onClick={handlebombaslamerasClick}
+                  to="/productos/maquinaria/mesa_concentradora"
+                  onClick={handlemesaconcentradoraClick}
                 >
                   Ver Detalles
                 </button>
@@ -146,26 +168,7 @@ export const Productos = () => {
             </div>
           </div>
         </div>
-        <div className="productos">
-          <div className="nomnbre-producto">
-            <h2>Molino a Bolas</h2>
-          </div>
-          <div className="container-img-producto">
-            <div className="img-producto">
-              <img src={molino_bolas} href id="p" className="img-productos" />
-              <div className="botones-detalles">
-                <button
-                  type="button"
-                  class="btn btn-primary"
-                  to="/productos/maquinaria/molino_a_bolas"
-                  onClick={handlemolinobolasClick}
-                >
-                  Ver Detalles
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
+
         <div className="productos">
           <div className="nomnbre-producto">
             <h3>Aprom Feeder</h3>

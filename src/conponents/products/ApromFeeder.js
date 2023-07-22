@@ -3,11 +3,11 @@ import "../../conponents/products/EstilosProductos.css";
 import n from "../../assets/img/ojo.png";
 export const ApromFeeder = () => {
   return (
-    <section className="container-productosestilos">
+    <section className="container-productosestilos" transition-style>
+      <div className="container-parts-name">
+        <h2>Repuestos de Aprom Feeder</h2>
+      </div>
       <div className="container-parts">
-        <div className="container-parts-name">
-          <h2>Repuestos de Aprom Feeder</h2>
-        </div>
         <div className="container-parts-detalles">
           <div className="piezas">
             <div className="nombre-pieza">

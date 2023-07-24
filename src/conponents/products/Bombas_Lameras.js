@@ -1,6 +1,9 @@
 import React from "react";
 import "../../conponents/products/EstilosProductos.css";
 import n from "../../assets/img/ojo.png";
+import cabeza from "../../assets/img/bombas lameras/CABEZAL.jpg";
+import camisa from "../../assets/img/bombas lameras/camisa.jpg";
+import discos from "../../assets/img/bombas lameras/DISCOS.jpg";
 export const Bombas_Lameras = () => {
   return (
     <section className="container-productosestilos" transition-style>
@@ -11,26 +14,26 @@ export const Bombas_Lameras = () => {
         <div className="container-parts-detalles">
           <div className="piezas">
             <div className="nombre-pieza">
-              <h3>name</h3>
+              <h3>Cabezal</h3>
             </div>
             <div className="imagen-pieza">
-              <img src={n} href id="n" className="img-productos-n" />
+              <img src={cabeza} href id="n" className="img-productos-n" />
             </div>
           </div>
           <div className="piezas">
             <div className="nombre-pieza">
-              <h3>name</h3>
+              <h3>Camisa</h3>
             </div>
             <div className="imagen-pieza">
-              <img src={n} href id="n" className="img-productos-n" />
+              <img src={camisa} href id="n" className="img-productos-n" />
             </div>
           </div>
           <div className="piezas">
             <div className="nombre-pieza">
-              <h3>name</h3>
+              <h3>Discos</h3>
             </div>
             <div className="imagen-pieza">
-              <img src={n} href id="n" className="img-productos-n" />
+              <img src={discos} href id="n" className="img-productos-n" />
             </div>
           </div>
           <div className="piezas">

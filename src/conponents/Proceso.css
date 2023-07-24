@@ -1,0 +1,34 @@
+.container-procesos {
+  margin-top: 60px;
+}
+.titulo-proceso {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 150px;
+  background-image: url("../assets/img/fondo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  animation: moveUpDown 5s infinite alternate;
+}
+.titulo-proceso h2 {
+  font-size: 50px;
+  font-family: "Russo One", sans-serif;
+}
+.img-proceso {
+  width: 700px;
+  height: 100%;
+}
+.container-pasos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  margin-top: 30px;
+}
+

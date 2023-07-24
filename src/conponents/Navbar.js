@@ -31,6 +31,11 @@ const Navbar = () => {
     navigate("/servicios");
     setIsMenuOpen(false);
   };
+  //servicios
+  const handleprocesoClick = () => {
+    navigate("/proceso");
+    setIsMenuOpen(false);
+  };
 
   //contacto
   const handleUbicacionClick = () => {
@@ -94,6 +99,18 @@ const Navbar = () => {
                 onClick={handleserviciosClick}
               >
                 Clientes
+              </Link>
+            </li>
+            <li class="nav-item mx-3">
+              <Link
+                class="nav-link"
+                aria-current="page"
+                to="/proceso"
+                onClick={handleprocesoClick}
+                
+                
+              >
+                Proceso
               </Link>
             </li>
 

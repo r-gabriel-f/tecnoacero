@@ -19,6 +19,7 @@ import { Locomotora_Rhyno } from "./conponents/products/Locomotora_Rhyno";
 import { Carro_Metalero } from "./conponents/products/Carro_Metalero";
 import { Carro_Granby } from "./conponents/products/Carro_Granby";
 import EmailForm from "./conponents/EmailForm";
+import { Proceso } from "./conponents/Proceso";
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
           <Route path="/" element={<Inicio />} />
           <Route path="/institucion" element={<Institucion />} />
           <Route path="/servicios" element={<Servicios />} />
+          <Route path="/proceso" element={<Proceso />} />
           <Route path="/contacto" element={<Mapa />} />
           <Route path="/productos/maquinaria" element={<Productos />} />
           <Route path="/productos/maquinaria/mesa_concentradora" element={<Mesa_Concentradora />} />

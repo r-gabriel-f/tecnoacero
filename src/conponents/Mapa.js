@@ -61,7 +61,7 @@ export const Mapa = () => {
               </a>
             </div>
             <div className="ico-name">
-              <a href="https://goo.gl/maps/8XerrxigjqUpZ85B7" target="_banks">
+              <a>
                 <ion-icon
                   name="compass-outline"
                   className="icon-contacto"

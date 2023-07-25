@@ -44,3 +44,13 @@ ion-icon {
 .Derechos {
   margin: 0 auto;
 }
+@media screen and (max-width: 767px) {
+  .conponent-contaciconos {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}

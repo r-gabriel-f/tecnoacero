@@ -44,4 +44,9 @@ button[type="submit"]:hover {
   background-color: #eb6c0f;
 }
 
+@media screen and (max-width: 767px){
+  .container-email {
+    width: auto;
 
+  }
+}

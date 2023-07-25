@@ -1,31 +1,32 @@
 .container-mapa {
   margin-top: 60px;
 }
-.contenido a{
+.contenido a {
   text-decoration: none;
   color: black;
-  display: flex; 
+  display: flex;
   align-items: center;
 }
 .formulario {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  margin-top: 50px;
   height: 99vh;
 }
-.formulario-iconos-contacto {
-  flex: 1;
-  margin-left: 20px;
-  margin-top: 50px;
-}
+
 .formulario-iconos-contacto h2 {
   text-align: center;
 }
+
+.formulario-iconos-contacto {
+  margin-top: 50px;
+}
 .formulario-emaild {
-  flex: 1;
-  margin-right: 20px;
   margin-top: 50px;
 }
 
-.ico-name {      
+.ico-name {
   display: flex;
   align-items: center;
   margin-top: 20px;
@@ -36,25 +37,25 @@
   margin-left: 20px;
 }
 #facebook {
-  color: #1F7BF2;
+  color: #1f7bf2;
   cursor: pointer;
-  transition: transform 0.3s; 
+  transition: transform 0.3s;
 }
 #whatsapp {
   color: #25d366;
   cursor: pointer;
-  transition: transform 0.3s; 
+  transition: transform 0.3s;
 }
 #linkedin {
   color: #126bc4;
   cursor: pointer;
   transition: transform 0.3s;
-  margin-left: 20px; 
+  margin-left: 20px;
 }
-#direccion{
+#direccion {
   cursor: pointer;
   transition: transform 0.3s;
-  margin-left: 90px; 
+  margin-left: 90px;
 }
 #facebook:hover,
 #whatsapp:hover,
@@ -68,4 +69,15 @@
   height: 100vh;
 }
 
+@media screen and (max-width: 767px) {
+  .formulario {
+    grid-template-columns: repeat(1, 1fr);
+    height: auto;
+    width: auto;
+  }
+  #direccion {
+    
+    margin-left: 75px;
+  }
 
+}

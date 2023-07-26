@@ -20,8 +20,8 @@
   font-family: "Russo One", sans-serif;
 }
 .img-proceso {
-  width: 700px;
-  height: 100%;
+  width: auto;
+  height: auto;
 }
 .container-pasos {
   display: flex;

@@ -105,6 +105,15 @@ const Navbar = () => {
               <Link
                 class="nav-link"
                 aria-current="page"
+                
+              >
+                Infraestructura
+              </Link>
+            </li>
+            <li class="nav-item mx-3">
+              <Link
+                class="nav-link"
+                aria-current="page"
                 to="/proceso"
                 onClick={handleprocesoClick}
                 

@@ -3,14 +3,14 @@
   display: grid;
   margin-top: 60px;
 
-  background-attachment: fixed; /* Fija la imagen de fondo */
+  background-attachment: fixed;
 }
 
 .categoria-producto {
-  display: flex; /* Utilizamos Flexbox */
-  flex-direction: column; /* Mostramos los elementos en una columna */
-  justify-content: center; /* Centramos verticalmente los elementos */
-  align-items: center; /* Centramos horizontalmente los elementos */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   height: 150px;
   background-image: url("../assets/img/fondo.jpg");
@@ -18,9 +18,8 @@
   background-position: center;
   background-repeat: no-repeat;
   color: white;
- 
-  /* Opcional: quitar la animación en pantallas pequeñas */
-  animation: moveUpDown 5s infinite alternate;}
+  animation: moveUpDown 5s infinite alternate;
+}
 .categoria-producto h2 {
   font-size: 50px;
   font-family: "Russo One", sans-serif;
@@ -101,17 +100,15 @@
 .container-productos {
   animation: 2.5s cubic-bezier(0.25, 1, 0.3, 1) wipe-in-right both;
 }
-@media screen and (max-width: 767px){
-  
+@media screen and (max-width: 767px) {
   .grid-productos {
     grid-template-columns: repeat(1, 1fr);
-    
+
     grid-row-gap: 0px;
   }
   .categoria-producto h2 {
     font-size: 50px; /* Ajustar el tamaño según tus preferencias */
   }
 
-  /* Reducir el tamaño de las imágenes en pantallas pequeñas */
-  
+
 }

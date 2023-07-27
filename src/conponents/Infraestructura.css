@@ -21,8 +21,94 @@
   font-size: 50px;
   font-family: "Russo One", sans-serif;
 }
-.img-infraestructura{
-    width: 100%;
-    height: 95vh;
+
+.slider-container {
+  width: 100%;
+  height: 600px ;
+  overflow: hidden;
+  position: relative;
 }
 
+
+figure {
+  position: absolute;
+  left: 0;
+  width: 1200%; /* 100% times the number of slides (12 slides) */
+  animation: 60s container-slider infinite; /* Increase animation duration to show all images */
+}
+
+.container-slider {
+  position: relative;
+  width: 8.33%; /* 100% divided by the number of slides (12 slides) */
+  float: left;
+}
+
+.tipo-infraestructura h3 {
+  position: absolute;
+  font-size: 3em;
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.container-slider img {
+  width: 100%;
+  height: 500px;
+}
+
+.slider-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.slider-buttons button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Estilos previos ... */
+
+/* Ajustar los estilos de los botones */
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-150%);
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  border: none;
+  outline: none;
+}
+
+.prev-btn {
+  left: 0;
+}
+
+.next-btn {
+  right: 0;
+}
+
+/* Estilos posteriores ... */
+.slider-titulo{
+    margin-top: 50px;
+}
+.slider-titulo h3 {
+  position: absolute;
+  bottom: 0; /* Ajustamos la posición del h3 debajo de la imagen */
+  left: 0;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px; /* Espacio entre el h3 y la imagen */
+  color: black;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  /* Agrega otros estilos que necesites para el h3 */
+}

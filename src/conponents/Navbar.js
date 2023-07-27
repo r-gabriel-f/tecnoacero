@@ -31,7 +31,12 @@ const Navbar = () => {
     navigate("/servicios");
     setIsMenuOpen(false);
   };
-  //servicios
+  //infraestructuta
+  const handleinfraestructuraClick = () => {
+    navigate("/infraestructura");
+    setIsMenuOpen(false);
+  };
+  //proceso
   const handleprocesoClick = () => {
     navigate("/proceso");
     setIsMenuOpen(false);
@@ -105,7 +110,8 @@ const Navbar = () => {
               <Link
                 class="nav-link"
                 aria-current="page"
-                
+                to="/infraestructura"
+                onClick={handleinfraestructuraClick}
               >
                 Infraestructura
               </Link>
@@ -140,7 +146,7 @@ const Navbar = () => {
                     to="/productos/maquinaria"
                     onClick={handlemaquinariaClick}
                   >
-                    Maquinaria
+                    Maquinaria para Procesamiento de Mineral
                   </Link>
                 </li>
                 <li>
@@ -149,7 +155,7 @@ const Navbar = () => {
                     to="/productos/extracción_minera"
                     onClick={handleextraccionClick}
                   >
-                    Extracción Minera
+                    Maquinaria Minera para Extracción
                   </Link>
                 </li>
                 <li>

@@ -118,8 +118,6 @@ export const Servicios = () => {
           </div>
         </div>
       </div>
-
-      <div></div>
     </section>
   );
 };

@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Lugrasimo&family=Russo+One&display=swap");
+.container-infraestructura {
+  display: grid;
+  margin-top: 60px;
+}
+
+.nombre-infraestructura {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 150px;
+  background-image: url("../assets/img/fondo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+.nombre-infraestructura h2 {
+  font-size: 50px;
+  font-family: "Russo One", sans-serif;
+}
+.img-infraestructura{
+    width: 100%;
+    height: 95vh;
+}
+

@@ -20,6 +20,7 @@ import { Carro_Metalero } from "./conponents/products/Carro_Metalero";
 import { Carro_Granby } from "./conponents/products/Carro_Granby";
 import EmailForm from "./conponents/EmailForm";
 import { Proceso } from "./conponents/Proceso";
+import { Infraestructura } from "./conponents/Infraestructura";
 
 function App() {
 
@@ -32,6 +33,7 @@ function App() {
           <Route path="/" element={<Inicio />} />
           <Route path="/institucion" element={<Institucion />} />
           <Route path="/servicios" element={<Servicios />} />
+          <Route path="/infraestructura" element={<Infraestructura />} />
           <Route path="/proceso" element={<Proceso />} />
           <Route path="/contacto" element={<Mapa />} />
           <Route path="/productos/maquinaria" element={<Productos />} />

@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import { React, useState,useEffect } from "react";
 
 import { Link, useNavigate } from "react-router-dom";
 import tc from "../assets/img/tecnoAcero.jpeg";
@@ -14,7 +14,10 @@ const Navbar = () => {
 
   window.scrollTo({ top: 0, behavior: "smooth" });
   const navigate = useNavigate();
-
+  // Agregar useEffect para redireccionar a la ruta principal ("/") al cargar el componente Navbar
+  useEffect(() => {
+    navigate("/");
+  }, []);
   //inicio
   const handleInicioClick = () => {
     navigate("/");
@@ -34,21 +37,18 @@ const Navbar = () => {
     navigate("/servicios");
     setIsMenuOpen(false);
     setLinkActivo("servicios");
-
   };
   //infraestructuta
   const handleinfraestructuraClick = () => {
     navigate("/infraestructura");
     setIsMenuOpen(false);
     setLinkActivo("infraestructura");
-
   };
   //proceso
   const handleprocesoClick = () => {
     navigate("/proceso");
     setIsMenuOpen(false);
     setLinkActivo("proceso");
-
   };
 
   //contacto
@@ -56,7 +56,6 @@ const Navbar = () => {
     navigate("/contacto");
     setIsMenuOpen(false);
     setLinkActivo("contacto");
-
   };
 
   //productos maquinaria
@@ -65,7 +64,6 @@ const Navbar = () => {
     navigate("/productos/maquinaria");
     setIsMenuOpen(false);
     setLinkActivo("productos");
-
   };
 
   //producto extraccion minera
@@ -74,7 +72,6 @@ const Navbar = () => {
     navigate("/productos/extracción_minera");
     setIsMenuOpen(false);
     setLinkActivo("productos");
-
   };
 
   return (
@@ -91,7 +88,9 @@ const Navbar = () => {
           id="navbarSupportedContent"
         >
           <ul class="navbar-nav mx-auto mb-10 mb-lg-0 me-2">
-            <li class={`nav-item mx-3 ${linkActivo === "inicio" ? "active" : ""}`}>
+            <li
+              class={`nav-item mx-3 ${linkActivo === "inicio" ? "active" : ""}`}
+            >
               <Link
                 class="nav-link"
                 aria-current="page"
@@ -101,7 +100,11 @@ const Navbar = () => {
                 Inicio
               </Link>
             </li>
-            <li class={`nav-item mx-3 ${linkActivo === "institucion" ? "active" : ""}`}>
+            <li
+              class={`nav-item mx-3 ${
+                linkActivo === "institucion" ? "active" : ""
+              }`}
+            >
               <Link
                 class="nav-link"
                 aria-current="page"
@@ -111,7 +114,11 @@ const Navbar = () => {
                 Institución
               </Link>
             </li>
-            <li class={`nav-item mx-3 ${linkActivo === "servicios" ? "active" : ""}`}>
+            <li
+              class={`nav-item mx-3 ${
+                linkActivo === "servicios" ? "active" : ""
+              }`}
+            >
               <Link
                 class="nav-link"
                 aria-current="page"
@@ -121,7 +128,11 @@ const Navbar = () => {
                 Clientes
               </Link>
             </li>
-            <li class={`nav-item mx-3 ${linkActivo === "infraestructura" ? "active" : ""}`}>
+            <li
+              class={`nav-item mx-3 ${
+                linkActivo === "infraestructura" ? "active" : ""
+              }`}
+            >
               <Link
                 class="nav-link"
                 aria-current="page"
@@ -131,7 +142,11 @@ const Navbar = () => {
                 Infraestructura
               </Link>
             </li>
-            <li class={`nav-item mx-3 ${linkActivo === "proceso" ? "active" : ""}`}>
+            <li
+              class={`nav-item mx-3 ${
+                linkActivo === "proceso" ? "active" : ""
+              }`}
+            >
               <Link
                 class="nav-link"
                 aria-current="page"
@@ -142,7 +157,11 @@ const Navbar = () => {
               </Link>
             </li>
 
-            <li class={`nav-item mx-3 dropdown ${linkActivo === "productos" ? "active" : ""}`}>
+            <li
+              class={`nav-item mx-3 dropdown ${
+                linkActivo === "productos" ? "active" : ""
+              }`}
+            >
               <a
                 className="nav-link dropdown-toggle"
                 href="#"
@@ -177,7 +196,11 @@ const Navbar = () => {
               </ul>
             </li>
 
-            <li class={`nav-item mx-3 ${linkActivo === "contacto" ? "active" : ""}`}>
+            <li
+              class={`nav-item mx-3 ${
+                linkActivo === "contacto" ? "active" : ""
+              }`}
+            >
               <Link
                 class="nav-link"
                 aria-current="page"

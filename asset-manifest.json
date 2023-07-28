@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tecnoacero/static/css/main.34834ff1.css",
-    "main.js": "/tecnoacero/static/js/main.875ae819.js",
+    "main.js": "/tecnoacero/static/js/main.97f3fd9b.js",
     "static/js/787.cffaa996.chunk.js": "/tecnoacero/static/js/787.cffaa996.chunk.js",
     "static/media/caratulan.png": "/tecnoacero/static/media/caratulan.3bcd1fb92d09c86532d4.png",
     "static/media/embarque.jpg": "/tecnoacero/static/media/embarque.1929235c22e345292204.jpg",
@@ -52,11 +52,11 @@
     "static/media/tecnoAcero.jpeg": "/tecnoacero/static/media/tecnoAcero.6588723411b8ce37815c.jpeg",
     "index.html": "/tecnoacero/index.html",
     "main.34834ff1.css.map": "/tecnoacero/static/css/main.34834ff1.css.map",
-    "main.875ae819.js.map": "/tecnoacero/static/js/main.875ae819.js.map",
+    "main.97f3fd9b.js.map": "/tecnoacero/static/js/main.97f3fd9b.js.map",
     "787.cffaa996.chunk.js.map": "/tecnoacero/static/js/787.cffaa996.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.34834ff1.css",
-    "static/js/main.875ae819.js"
+    "static/js/main.97f3fd9b.js"
   ]
 }

@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes,Navigate } from "react-router-dom";
 import "./App.css";
 
 import { Inicio } from "./conponents/Inicio";
@@ -50,7 +50,7 @@ function App() {
           <Route path="/productos/extracción_minera/locomotora_rhyno" element={<Locomotora_Rhyno />} />
           <Route path="/productos/extracción_minera/carro_metalero" element={<Carro_Metalero />} />
           <Route path="/productos/extracción_minera/carro_granby" element={<Carro_Granby />} />
-
+          <Route path="/*" element={<Navigate to="/" />} />
           
           {/* Resto de las rutas */}
         </Routes>

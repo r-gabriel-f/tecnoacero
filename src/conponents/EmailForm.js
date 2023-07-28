@@ -47,7 +47,7 @@ const EmailForm = () => {
             type="text"
             value={nombre}
             onChange={(e) => setNombre(e.target.value)}
-            placeholder="Ingrese su Nombre Pofavor :)"
+            placeholder="Ingrese su Nombre"
             required
           />
         </div>
@@ -57,7 +57,7 @@ const EmailForm = () => {
             type="email"
             value={from}
             onChange={(e) => setFrom(e.target.value)}
-            placeholder="Ingrese su Email Pofavor :)"
+            placeholder="Ingrese su Email"
             required
           />
         </div>
@@ -67,7 +67,7 @@ const EmailForm = () => {
             type="text"
             value={subject}
             onChange={(e) => setSubject(e.target.value)}
-            placeholder="Ingrese su Asunto Pofavor :)"
+            placeholder="Ingrese su Asunto"
             required
           />
         </div>
@@ -76,7 +76,7 @@ const EmailForm = () => {
           <textarea
             value={text}
             onChange={(e) => setText(e.target.value)}
-            placeholder="Ingrese su Mensaje Pofavor :)"
+            placeholder="Ingrese su Mensaje"
             required
           />
         </div>

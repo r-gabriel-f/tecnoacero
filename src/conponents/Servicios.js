@@ -13,7 +13,7 @@ export const Servicios = () => {
     <section className="container-servicios">
       <div className="nombre-servicios">
         <h2>Clientes</h2>
-        <h2>Tecnoacero S.R.L.</h2>
+        
       </div>
       <div className="container-img-servicios">
         <div className="img-servicio">

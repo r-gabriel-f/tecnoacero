@@ -6,6 +6,7 @@ import "../conponents/Navbar.css";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [linkActivo, setLinkActivo] = useState(""); // Agregamos este estado para guardar el enlace activo
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -18,34 +19,44 @@ const Navbar = () => {
   const handleInicioClick = () => {
     navigate("/");
     setIsMenuOpen(false);
+    setLinkActivo("inicio");
   };
 
   //institucion
   const handleInstitucionClick = () => {
     navigate("/institucion");
     setIsMenuOpen(false);
+    setLinkActivo("institucion");
   };
 
   //servicios
   const handleserviciosClick = () => {
     navigate("/servicios");
     setIsMenuOpen(false);
+    setLinkActivo("servicios");
+
   };
   //infraestructuta
   const handleinfraestructuraClick = () => {
     navigate("/infraestructura");
     setIsMenuOpen(false);
+    setLinkActivo("infraestructura");
+
   };
   //proceso
   const handleprocesoClick = () => {
     navigate("/proceso");
     setIsMenuOpen(false);
+    setLinkActivo("proceso");
+
   };
 
   //contacto
   const handleUbicacionClick = () => {
     navigate("/contacto");
     setIsMenuOpen(false);
+    setLinkActivo("contacto");
+
   };
 
   //productos maquinaria
@@ -53,6 +64,8 @@ const Navbar = () => {
   const handlemaquinariaClick = () => {
     navigate("/productos/maquinaria");
     setIsMenuOpen(false);
+    setLinkActivo("productos");
+
   };
 
   //producto extraccion minera
@@ -60,6 +73,8 @@ const Navbar = () => {
   const handleextraccionClick = () => {
     navigate("/productos/extracción_minera");
     setIsMenuOpen(false);
+    setLinkActivo("productos");
+
   };
 
   return (
@@ -76,7 +91,7 @@ const Navbar = () => {
           id="navbarSupportedContent"
         >
           <ul class="navbar-nav mx-auto mb-10 mb-lg-0 me-2">
-            <li class="nav-item mx-3">
+            <li class={`nav-item mx-3 ${linkActivo === "inicio" ? "active" : ""}`}>
               <Link
                 class="nav-link"
                 aria-current="page"
@@ -86,7 +101,7 @@ const Navbar = () => {
                 Inicio
               </Link>
             </li>
-            <li class="nav-item mx-3">
+            <li class={`nav-item mx-3 ${linkActivo === "institucion" ? "active" : ""}`}>
               <Link
                 class="nav-link"
                 aria-current="page"
@@ -96,7 +111,7 @@ const Navbar = () => {
                 Institución
               </Link>
             </li>
-            <li class="nav-item mx-3">
+            <li class={`nav-item mx-3 ${linkActivo === "servicios" ? "active" : ""}`}>
               <Link
                 class="nav-link"
                 aria-current="page"
@@ -106,7 +121,7 @@ const Navbar = () => {
                 Clientes
               </Link>
             </li>
-            <li class="nav-item mx-3">
+            <li class={`nav-item mx-3 ${linkActivo === "infraestructura" ? "active" : ""}`}>
               <Link
                 class="nav-link"
                 aria-current="page"
@@ -116,20 +131,18 @@ const Navbar = () => {
                 Infraestructura
               </Link>
             </li>
-            <li class="nav-item mx-3">
+            <li class={`nav-item mx-3 ${linkActivo === "proceso" ? "active" : ""}`}>
               <Link
                 class="nav-link"
                 aria-current="page"
                 to="/proceso"
                 onClick={handleprocesoClick}
-                
-                
               >
                 Proceso
               </Link>
             </li>
 
-            <li className="nav-item mx-3 dropdown">
+            <li class={`nav-item mx-3 dropdown ${linkActivo === "productos" ? "active" : ""}`}>
               <a
                 className="nav-link dropdown-toggle"
                 href="#"
@@ -164,7 +177,7 @@ const Navbar = () => {
               </ul>
             </li>
 
-            <li class="nav-item mx-3">
+            <li class={`nav-item mx-3 ${linkActivo === "contacto" ? "active" : ""}`}>
               <Link
                 class="nav-link"
                 aria-current="page"

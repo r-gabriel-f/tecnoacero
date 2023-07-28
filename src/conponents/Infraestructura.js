@@ -113,7 +113,7 @@ export const Infraestructura = () => {
               <h3>Post-Venta</h3>
             </div>
           </div>
-          {/* Agrega las demás imágenes aquí */}
+        
         </figure>
         <div className="slider-buttons">
         <button className="prev-btn" onClick={prevSlide}>

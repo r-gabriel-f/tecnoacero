@@ -1,22 +1,23 @@
 .img-small {
-    width: 400px;
-    height: 50px;
-    margin-left: 20px;
-  }
-.custom-navbar{
-    background-color: #EB6C1F    ;
-    
+  width: 400px;
+  height: 50px;
+  margin-left: 20px;
 }
-.nav-link{
-    color: white;
+.custom-navbar {
+  background-color: #eb6c1f;
+}
+.nav-link {
+  color: white;
 }
 .dropdown-item {
-    white-space: normal;
-  
+  white-space: normal;
+}
+.navbar-nav .nav-item.active .nav-link {
+  color: black;
+}
+
+@media screen and (max-width: 767px) {
+  .img-small {
+    width: 250px;
   }
-  
-  @media screen and (max-width: 767px){
-    .img-small{
-      width: 250px;
-    }
-  }
+}

@@ -106,20 +106,16 @@ export const Infraestructura = () => {
               <h3>Torneria 4</h3>
             </div>
           </div>
-          
-        
         </figure>
         <div className="slider-buttons">
-        <button className="prev-btn" onClick={prevSlide}>
-          &#10094;
-        </button>
-        <button className="next-btn" onClick={nextSlide}>
-          &#10095;
-        </button>
+          <button className="prev-btn" onClick={prevSlide}>
+            &#10094;
+          </button>
+          <button className="next-btn" onClick={nextSlide}>
+            &#10095;
+          </button>
+        </div>
       </div>
-      </div>
-
-      
     </section>
   );
 };

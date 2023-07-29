@@ -16,6 +16,7 @@
   background-position: center;
   background-repeat: no-repeat;
   color: white;
+  animation: moveUpDown 5s infinite alternate;
 }
 .nombre-servicios h2 {
   font-size: 50px;

@@ -78,4 +78,7 @@
   #direccion {
     margin-left: 75px;
   }
+  .contenido {
+    margin-left: -70px;
+  }
 }

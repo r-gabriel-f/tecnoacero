@@ -80,7 +80,7 @@ const EmailForm = () => {
             required
           />
         </div>
-        <button type="submit">Enviar</button>
+        <button type="submit" id="bo">Enviar</button>
       </form>
     </section>
   );

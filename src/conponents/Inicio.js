@@ -10,7 +10,7 @@ export const Inicio = () => {
 
         <div className="container-info">
           <div className="center-content">
-            <h1 className="h1-margin">TECNOACERO S.R.L.</h1>
+            <h1 className="h1-margin">TECNOACEROs S.R.L.</h1>
             <p>
               Es una empresa industrial cochabambina, presente en el mercado 14
               años, colaborando a la industria boliviana.

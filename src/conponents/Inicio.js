@@ -2,15 +2,17 @@ import React from "react";
 import "../conponents/Inicio.css";
 import ReactPlayer from "react-player";
 import video from "../assets/video/video.mp4";
+import video2 from "../assets/video/VACIADO 5 OK.mp4";
 export const Inicio = () => {
-   return (
+
+  return (
     <section className="container-inicio" transition-style>
       <div className="contenido">
-        <video src={video} autoPlay loop muted></video>
+        <video src={video2} autoPlay loop muted></video>
 
         <div className="container-info">
           <div className="center-content">
-            <h1 className="h1-margin">TECNOACEROs S.R.L.</h1>
+            <h1 className="h1-margin">TECNOACERO S.R.L.</h1>
             <p>
               Es una empresa industrial cochabambina, presente en el mercado 14
               años, colaborando a la industria boliviana.

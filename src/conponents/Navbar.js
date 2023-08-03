@@ -195,6 +195,19 @@ const Navbar = () => {
                 </li>
               </ul>
             </li>
+            <li
+              class={`nav-item mx-3 ${
+                linkActivo === "proceso" ? "active" : ""
+              }`}
+            >
+              <Link
+                class="nav-link"
+                aria-current="page"
+                
+              >
+                Galeria
+              </Link>
+            </li>
 
             <li
               class={`nav-item mx-3 ${

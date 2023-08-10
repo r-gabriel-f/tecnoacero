@@ -1,23 +1,21 @@
-.container-inicio {
-  position: relative;
+
+.contenido {
   margin-top: 60px;
-  width: 100%;
+  width:auto;
   height: 96vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url('../assets/img/caratulan.png');
+  background-size: cover;
+  background-position: center;
+  
 }
-
-video {
-  width: 100%;
-
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
-
-.container-info {
+.center-content {
+  border: 2px solid #eb6c1f;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -26,15 +24,9 @@ video {
   color: white;
 }
 
-.center-content {
-  border: 2px solid #eb6c1f;
-  padding: 20px;
-  border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
 
 @media screen and (max-width: 767px) {
+  
   .center-content {
     margin-left: 10px;
     margin-right: 10px;

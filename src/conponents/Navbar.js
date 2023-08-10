@@ -100,7 +100,7 @@ const Navbar = () => {
                 Inicio
               </Link>
             </li>
-            <li
+            {/*<li
               class={`nav-item mx-3 ${
                 linkActivo === "institucion" ? "active" : ""
               }`}
@@ -113,7 +113,7 @@ const Navbar = () => {
               >
                 Institución
               </Link>
-            </li>
+            </li>*/}
             <li
               class={`nav-item mx-3 ${
                 linkActivo === "servicios" ? "active" : ""
@@ -195,7 +195,7 @@ const Navbar = () => {
                 </li>
               </ul>
             </li>
-            <li
+            {/*<li
               class={`nav-item mx-3 ${
                 linkActivo === "proceso" ? "active" : ""
               }`}
@@ -207,7 +207,7 @@ const Navbar = () => {
               >
                 Galeria
               </Link>
-            </li>
+            </li>*/}
 
             <li
               class={`nav-item mx-3 ${

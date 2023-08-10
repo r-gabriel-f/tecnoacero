@@ -14,20 +14,14 @@ export const Institucion = () => {
           <img src={m} href id="v" className="img-misionv" />
 
           <p>
-            Satisfacer las necesidades y los requerimientos de las industrias
-            mediante la excelencia y calidad de los productos que elaboramos,
-            trabajar con entrega y profecionalismo para ofrecer la mejor
-            calidad, beneficios a nuestros clientes con la adquisición de sus
-            pedidos (acero).
+            TECNOACERO S.R.L. es una empresa comprometida en satisfacer las
+            necesidades de la industria mediante la excelencia y calidad de sus
+            productos fabricados por proceso de fundición.
           </p>
           <p>
-            Superar las expectativas de nuestros clientes con satisfacer las
-            necesidades y los requerimientos de las industrias mediante la
-            excelencia y necesidades y los requerimientos de las industrias
-            mediante la excelencia y calidad de los productos que elaboramos,
-            trabajar con entrega y prefesionalismo para ofrecer la mejor
-            calidad, beneficiando a nuestros clientes con la adquisición de sus
-            pedidos (acero)
+            TECNOACERO S.R.L. es una empresa constituida para llenar los vacíos
+            tecnológicos en proceso de fundición de aceros en el mercado
+            nacional.
           </p>
         </div>
         <div className="vision">
@@ -36,11 +30,11 @@ export const Institucion = () => {
           <img src={vi} href id="vi" className="img-visionv" />
 
           <p>
-            Ser líder en el mercado de fundición de acerp y producción de
+            Ser líder en el mercado de fundición de acero y producción de
             equipos y repuestos, llenando los vacíos tecnológicos en procesos de
             fundición de aceros en el mercado nacional. Ofreciendo productos
-            competitivos de calidad a las diferentes industrias del pais;
-            llegando a ser el mayor proveedor de productos hechos de acerp
+            competitivos de calidad a las diferentes industrias del país;
+            llegando a ser el mayor proveedor de productos hechos de acero
             fundido
           </p>
         </div>

@@ -1,6 +1,8 @@
 .container-procesos {
   margin-top: 60px;
+  
 }
+
 .titulo-proceso {
   display: flex;
   flex-direction: column;
@@ -27,6 +29,7 @@
   justify-items: center;
   text-align: center;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 @media screen and (max-width: 767px){

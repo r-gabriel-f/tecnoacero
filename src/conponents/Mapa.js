@@ -42,7 +42,17 @@ export const Mapa = () => {
                 id="whatsapp"
               ></ion-icon>
               <p>
-                Whatsapp:<br></br>(+591) 10101010
+                Whatsapp:<br></br>(+591) 72220486
+              </p>
+            </div>
+            <div className="ico-name">
+              <ion-icon
+                name="mail-outline"
+                className="icon-contacto"
+                id="email"
+              ></ion-icon>
+              <p>
+                Email:<br></br>tecnoacero_bolivia@yahoo.com
               </p>
             </div>
             <div className="ico-name">

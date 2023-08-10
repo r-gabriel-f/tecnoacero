@@ -73,6 +73,21 @@ const Navbar = () => {
     setIsMenuOpen(false);
     setLinkActivo("productos");
   };
+  //repuestos maquinaria
+
+  const handlerepuestosmaquinariaClick = () => {
+    navigate("/repuestos/maquinaria");
+    setIsMenuOpen(false);
+    setLinkActivo("repuestos");
+  };
+
+  //repuestos extraccion minera
+
+  const handlerepuestosextraccionClick = () => {
+    navigate("/repuestos/extracción_minera");
+    setIsMenuOpen(false);
+    setLinkActivo("repuestos");
+  };
 
   return (
     <nav class="navbar navbar-expand-lg custom-navbar fixed-top">
@@ -190,9 +205,45 @@ const Navbar = () => {
                     Maquinaria Minera para Extracción
                   </Link>
                 </li>
-                <li>
+                {/*<li>
                   <Link className="dropdown-item">Otros</Link>
+            </li>*/}
+              </ul>
+            </li>
+            <li
+              class={`nav-item mx-3 dropdown ${
+                linkActivo === "repuestos" ? "active" : ""
+              }`}
+            >
+              <a
+                className="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Repuestos
+              </a>
+              <ul className="dropdown-menu">
+                <li>
+                  <Link
+                    className="dropdown-item"
+                    to="/repuestos/maquinaria"
+                    onClick={handlerepuestosmaquinariaClick}
+                  >
+                    Repuestos de Maquinaria para Procesamiento de Mineral
+                  </Link>
                 </li>
+                <li>
+                  <Link
+                    className="dropdown-item"
+                    to="/repuestos/extracción_minera"
+                    onClick={handlerepuestosextraccionClick}
+                  >
+                    Repuestos de Maquinaria Minera para Extracción
+                  </Link>
+                </li>
+                
               </ul>
             </li>
             {/*<li

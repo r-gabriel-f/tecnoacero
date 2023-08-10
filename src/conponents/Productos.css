@@ -28,7 +28,8 @@
 .grid-productos {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Two columns */
-  grid-gap: 50px;
+  column-gap: 50px;
+ 
 }
 
 /* New container class to wrap the productos divs */
@@ -61,11 +62,23 @@
   height: 300px;
 }
 
-.btn {
+.boton {
+  background-color: #eb6c1f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
   cursor: pointer;
+  font-size: 16px;
 }
 
-.botones-detalles {
+.boton:hover {
+  background-color: #d4550f;
+}
+
+
+
+/*.botones-detalles {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -74,7 +87,7 @@
   opacity: 0;
   transition: opacity 0.3s ease;
   margin-top: 10px;
-}
+}*/
 
 .container-img-producto:hover .botones-detalles {
   opacity: 1;

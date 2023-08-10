@@ -54,7 +54,7 @@ export const Productos_Minieria = () => {
               <div className="botones-detalles">
                 <button
                   type="button"
-                  class="btn btn-primary"
+                  className="boton"
                   to="/productos/extracción_minera/locomotora_rhyno"
                   onClick={handlelocomotorarhynoClick}
                 >
@@ -75,7 +75,7 @@ export const Productos_Minieria = () => {
               <div className="botones-detalles">
                 <button
                   type="button"
-                  class="btn btn-primary"
+                  className="boton"
                   to="/productos/extracción_minera/carro_metalero"
                   onClick={handlecarrometaleroClick}
                 >
@@ -96,7 +96,7 @@ export const Productos_Minieria = () => {
               <div className="botones-detalles">
                 <button
                   type="button"
-                  class="btn btn-primary"
+                  className="boton"
                   to="/productos/extracción_minera/carro_granby"
                   onClick={handlecarrogranbyClick}
                 >

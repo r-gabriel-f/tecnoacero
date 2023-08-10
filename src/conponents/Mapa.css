@@ -1,5 +1,6 @@
 .container-mapa {
   margin-top: 60px;
+  background-color: red;
 }
 .contenido a {
   text-decoration: none;
@@ -28,9 +29,11 @@
 
 .ico-name {
   display: flex;
-  align-items: center;
+
   margin-top: 20px;
-  justify-content: center;
+}
+.contenido {
+  margin-left: 30%;
 }
 
 .ico-name p {
@@ -50,12 +53,10 @@
   color: #126bc4;
   cursor: pointer;
   transition: transform 0.3s;
-  margin-left: 20px;
 }
 #direccion {
   cursor: pointer;
   transition: transform 0.3s;
-  margin-left: 90px;
 }
 #facebook:hover,
 #whatsapp:hover,
@@ -67,6 +68,9 @@
 .gmap_iframe {
   width: 100%;
   height: 100vh;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 @media screen and (max-width: 767px) {
@@ -75,10 +79,10 @@
     height: auto;
     width: auto;
   }
-  #direccion {
-    margin-left: 75px;
+  .formulario-emaild {
+    margin-top: 0px;
   }
   .contenido {
-    margin-left: -70px;
+    margin-left: 10%;
   }
 }

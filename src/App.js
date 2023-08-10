@@ -18,9 +18,11 @@ import { ApromFeeder } from "./conponents/products/ApromFeeder";
 import { Locomotora_Rhyno } from "./conponents/products/Locomotora_Rhyno";
 import { Carro_Metalero } from "./conponents/products/Carro_Metalero";
 import { Carro_Granby } from "./conponents/products/Carro_Granby";
-import EmailForm from "./conponents/EmailForm";
 import { Proceso } from "./conponents/Proceso";
 import { Infraestructura } from "./conponents/Infraestructura";
+import { Repuestos } from "./conponents/Repuestos";
+import { Repuestos_Mineria } from "./conponents/Repuestos_Mineria";
+import { Detalles_Molino } from "./conponents/detalles/Detalles_Molino";
 
 
 
@@ -40,16 +42,27 @@ function App() {
           <Route path="/proceso" element={<Proceso />} />
           <Route path="/contacto" element={<Mapa />} />
           <Route path="/productos/maquinaria" element={<Productos />} />
-          <Route path="/productos/maquinaria/mesa_concentradora" element={<Mesa_Concentradora />} />
-          <Route path="/productos/maquinaria/chancadora" element={<Chancadora />} />
-          <Route path="/productos/maquinaria/celda_de_flotacion" element={<Celda_de_Flotación />} />
-          <Route path="/productos/maquinaria/bombas_lameras" element={<Bombas_Lameras />} />
-          <Route path="/productos/maquinaria/molino_a_bolas" element={<Molino_a_Bolas />} />
-          <Route path="/productos/maquinaria/aprom_feeder" element={<ApromFeeder />} />
+          <Route path="/productos/maquinaria/molino_a_bolas" element={<Detalles_Molino />} />
+          
           <Route path="/productos/extracción_minera" element={<Productos_Minieria />} />
-          <Route path="/productos/extracción_minera/locomotora_rhyno" element={<Locomotora_Rhyno />} />
-          <Route path="/productos/extracción_minera/carro_metalero" element={<Carro_Metalero />} />
-          <Route path="/productos/extracción_minera/carro_granby" element={<Carro_Granby />} />
+          
+          <Route path="/repuestos/maquinaria" element={<Repuestos />} />
+
+          <Route path="/repuestos/maquinaria/mesa_concentradora" element={<Mesa_Concentradora />} />
+          <Route path="/repuestos/maquinaria/chancadora" element={<Chancadora />} />
+          <Route path="/repuestos/maquinaria/celda_de_flotacion" element={<Celda_de_Flotación />} />
+          <Route path="/repuestos/maquinaria/bombas_lameras" element={<Bombas_Lameras />} />
+          <Route path="/repuestos/maquinaria/molino_a_bolas" element={<Molino_a_Bolas />} />
+          <Route path="/repuestos/maquinaria/aprom_feeder" element={<ApromFeeder />} />
+
+
+          <Route path="/repuestos/extracción_minera" element={<Repuestos_Mineria />} />
+
+          <Route path="/repuestos/extracción_minera/locomotora_rhyno" element={<Locomotora_Rhyno />} />
+          <Route path="/repuestos/extracción_minera/carro_metalero" element={<Carro_Metalero />} />
+          <Route path="/repuestos/extracción_minera/carro_granby" element={<Carro_Granby />} />
+
+
           <Route path="/*" element={<Navigate to="/" />} />
           
           

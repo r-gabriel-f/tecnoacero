@@ -4,11 +4,11 @@ export const ContactoEnd = () => {
   return (
     <section className="conponent-contactosend">
       <div className="conponent-contatosend-info">
-        <div className="h2-margin-contactos">
+       <div className="h2-margin-contactos">
           <h2>Contactos</h2>
         </div>
-        <div className="conponent-centericonos">
-          <div className="conponent-contaciconos">
+         <div className="conponent-centericonos">
+         <div className="conponent-contaciconos">
             <div>
               <ion-icon name="mail-outline" className="icon"></ion-icon>
               <p>Email</p>

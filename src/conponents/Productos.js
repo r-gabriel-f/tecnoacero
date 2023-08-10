@@ -57,7 +57,7 @@ export const Productos = () => {
   return (
     <section className="container-productos" transition-style>
       <div className="categoria-producto">
-        <h2>Maquinaria Minera</h2>
+        <h2>Productos de Maquinaria Minera</h2>
       </div>
       <div className="grid-productos">
         <div className="productos">
@@ -70,7 +70,7 @@ export const Productos = () => {
               <div className="botones-detalles">
                 <button
                   type="button"
-                  class="btn btn-primary"
+                  className="boton"
                   to="/productos/maquinaria/molino_a_bolas"
                   onClick={handlemolinobolasClick}
                 >
@@ -91,7 +91,7 @@ export const Productos = () => {
               <div className="botones-detalles">
                 <button
                   type="button"
-                  class="btn btn-primary"
+                  className="boton"
                   to="/productos/maquinaria/chancadora"
                   onClick={handlechancadoraClick}
                 >
@@ -111,7 +111,7 @@ export const Productos = () => {
               <div className="botones-detalles">
                 <button
                   type="button"
-                  class="btn btn-primary"
+                  className="boton"
                   to="/productos/maquinaria/bombas_lameras"
                   onClick={handlebombaslamerasClick}
                 >
@@ -136,7 +136,7 @@ export const Productos = () => {
               <div className="botones-detalles">
                 <button
                   type="button"
-                  class="btn btn-primary"
+                  className="boton"
                   to="/productos/maquinaria/celda_de_flotacion"
                   onClick={handleceldasdeflotacionClick}
                 >
@@ -158,7 +158,7 @@ export const Productos = () => {
               <div className="botones-detalles">
                 <button
                   type="button"
-                  class="btn btn-primary"
+                  className="boton"
                   to="/productos/maquinaria/mesa_concentradora"
                   onClick={handlemesaconcentradoraClick}
                 >
@@ -179,7 +179,7 @@ export const Productos = () => {
               <div className="botones-detalles">
                 <button
                   type="button"
-                  class="btn btn-primary"
+                  className="boton"
                   to="/productos/maquinaria/aprom_feeder"
                   onClick={handleapromfeederClick}
                 >

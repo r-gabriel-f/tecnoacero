@@ -1,0 +1,75 @@
+.container-detallesproductosestilos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    animation: 6s cubic-bezier(0.25, 1, 0.3, 1) wipe-in-down both;
+  }
+  .container-detallesparts-name {
+    display: flex; /* Utilizamos Flexbox */
+    flex-direction: column; /* Mostramos los elementos en una columna */
+    justify-content: center; /* Centramos verticalmente los elementos */
+    align-items: center; /* Centramos horizontalmente los elementos */
+    text-align: center;
+    height: 100px;
+    background-image: url("../../assets/img/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    animation: moveUpDown 5s infinite alternate; /* Aquí indicamos la animación */
+  }
+  .container-detallesparts-name h2 {
+    font-size: 50px;
+    font-family: "Russo One", sans-serif;
+  }
+  .container-detallesdescripcion-partes {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+  }
+/* Estilos para la imagen */
+.imagen-detalle {
+    max-width: 400px;
+    height: auto;
+  }
+  
+  /* Estilos para la tabla */
+  .caracteristicas-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .caracteristicas-table th, .caracteristicas-table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .caracteristicas-table th {
+    background-color: #f2f2f2;
+  }
+  
+  @keyframes moveUpDown {
+    0% {
+      background-position-y: 0;
+    }
+    100% {
+      background-position-y: 60%;
+    }
+  }
+  @keyframes wipe-in-down {
+    from {
+      clip-path: inset(0 0 100% 0);
+    }
+    to {
+      clip-path: inset(0 0 0 0);
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .container-detallesparts-name h2{
+      font-size: 40px;
+    }
+  }
+  

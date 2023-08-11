@@ -1,15 +1,15 @@
-import React from "react";
+import React from 'react'
 import "../../conponents/detalles/EstiloDetalles.css";
-import molino from "../../assets/img/molino a bolas.png";
+import carretero from "../../assets/img/carrometalero.png";
 
-export const Detalles_Molino = () => {
+export const Detalle_Metalero = () => {
   return (
     <section className="container-detallesproductosestilos" transition-style>
       <div className="container-detallesparts-name">
-        <h2>Detalles de Molino a Bolas</h2>
+        <h2>Detalles de Carro Metalero</h2>
       </div>
       <div className="image-detalle">
-        <img src={molino} alt="molino" className="imagen-detalle" />
+        <img src={carretero} alt="carretero" className="imagen-detalle" />
       </div>
 
       <div className="container-descripcion-detallespartes">
@@ -78,5 +78,5 @@ export const Detalles_Molino = () => {
         </table>
       </div>
     </section>
-  );
-};
+  )
+}

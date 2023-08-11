@@ -23,6 +23,14 @@ import { Infraestructura } from "./conponents/Infraestructura";
 import { Repuestos } from "./conponents/Repuestos";
 import { Repuestos_Mineria } from "./conponents/Repuestos_Mineria";
 import { Detalles_Molino } from "./conponents/detalles/Detalles_Molino";
+import { Detalles_Chancadora } from "./conponents/detalles/Detalles_Chancadora";
+import { Detalles_Bombas } from "./conponents/detalles/Detalles_Bombas";
+import { Detalles_Celdas } from "./conponents/detalles/Detalles_Celdas";
+import { Detalles_Mesa } from "./conponents/detalles/Detalles_Mesa";
+import { Detalles_Aprom } from "./conponents/detalles/Detalles_Aprom";
+import { Detalle_Rhyno } from "./conponents/detalles/Detalle_Rhyno";
+import { Detalle_Metalero } from "./conponents/detalles/Detalle_Metalero";
+import { Detalle_Granby } from "./conponents/detalles/Detalle_Granby";
 
 
 
@@ -43,8 +51,18 @@ function App() {
           <Route path="/contacto" element={<Mapa />} />
           <Route path="/productos/maquinaria" element={<Productos />} />
           <Route path="/productos/maquinaria/molino_a_bolas" element={<Detalles_Molino />} />
+          <Route path="/productos/maquinaria/chancadora" element={<Detalles_Chancadora />} />
+          <Route path="/productos/maquinaria/bombas_lameras" element={<Detalles_Bombas />} />
+          <Route path="/productos/maquinaria/celda_de_flotacion" element={<Detalles_Celdas />} />
+          <Route path="/productos/maquinaria/mesa_concentradora" element={<Detalles_Mesa />} />
+          <Route path="/productos/maquinaria/aprom_feeder" element={<Detalles_Aprom />} />
+
           
           <Route path="/productos/extracción_minera" element={<Productos_Minieria />} />
+          <Route path="/productos/extracción_minera/locomotora_rhyno" element={<Detalle_Rhyno />} />
+          <Route path="/productos/extracción_minera/carro_metalero" element={<Detalle_Metalero />} />
+          <Route path="/productos/extracción_minera/carro_granby" element={<Detalle_Granby />} />
+
           
           <Route path="/repuestos/maquinaria" element={<Repuestos />} />
 

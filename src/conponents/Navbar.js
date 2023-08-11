@@ -78,7 +78,7 @@ const Navbar = () => {
   const handlerepuestosmaquinariaClick = () => {
     navigate("/repuestos/maquinaria");
     setIsMenuOpen(false);
-    setLinkActivo("repuestos");
+    setLinkActivo("productos");
   };
 
   //repuestos extraccion minera
@@ -86,7 +86,7 @@ const Navbar = () => {
   const handlerepuestosextraccionClick = () => {
     navigate("/repuestos/extracción_minera");
     setIsMenuOpen(false);
-    setLinkActivo("repuestos");
+    setLinkActivo("productos");
   };
 
   return (
@@ -199,39 +199,19 @@ const Navbar = () => {
                 <li>
                   <Link
                     className="dropdown-item"
-                    to="/productos/extracción_minera"
-                    onClick={handleextraccionClick}
-                  >
-                    Maquinaria Minera para Extracción
-                  </Link>
-                </li>
-                {/*<li>
-                  <Link className="dropdown-item">Otros</Link>
-            </li>*/}
-              </ul>
-            </li>
-            <li
-              class={`nav-item mx-3 dropdown ${
-                linkActivo === "repuestos" ? "active" : ""
-              }`}
-            >
-              <a
-                className="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Repuestos
-              </a>
-              <ul className="dropdown-menu">
-                <li>
-                  <Link
-                    className="dropdown-item"
                     to="/repuestos/maquinaria"
                     onClick={handlerepuestosmaquinariaClick}
                   >
                     Repuestos de Maquinaria para Procesamiento de Mineral
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className="dropdown-item"
+                    to="/productos/extracción_minera"
+                    onClick={handleextraccionClick}
+                  >
+                    Maquinaria Minera para Extracción
                   </Link>
                 </li>
                 <li>
@@ -243,9 +223,12 @@ const Navbar = () => {
                     Repuestos de Maquinaria Minera para Extracción
                   </Link>
                 </li>
-                
+                {/*<li>
+                  <Link className="dropdown-item">Otros</Link>
+            </li>*/}
               </ul>
             </li>
+           
             {/*<li
               class={`nav-item mx-3 ${
                 linkActivo === "proceso" ? "active" : ""

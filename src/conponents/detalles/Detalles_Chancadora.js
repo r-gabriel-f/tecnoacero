@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import "../../conponents/detalles/EstiloDetalles.css";
 import chancadora from "../../assets/img/chancadora.png";
 export const Detalles_Chancadora = () => {
@@ -16,66 +16,66 @@ export const Detalles_Chancadora = () => {
         <table className="caracteristicas-table">
           <thead>
             <tr>
-              <th>MOLINO</th>
-              <th>CARGA DE BOLAS Kg/ 45%vol</th>
-              <th>POTENCIA MOTOR (HP)</th>
-              <th>VELOCIDAD DE ROTACION (RPM)</th>
-              <th>CAPACIDAD TONELADA POR 24 Hrs</th>
+              <th>Característica</th>
+              <th>Descripción</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>3X4</td>
-              <td>1800</td>
-              <td>15</td>
-              <td>33</td>
-              <td>17</td>
+              <td>Tipo</td>
+              <td>Chancadora de quijada</td>
             </tr>
             <tr>
-              <td>3X6</td>
-              <td>2750</td>
-              <td>20</td>
-              <td>33</td>
-              <td>27</td>
+              <td>Capacidad de producción</td>
+              <td>Varía según el modelo; en toneladas por hora</td>
             </tr>
             <tr>
-              <td>5X5</td>
-              <td>6200</td>
-              <td>50</td>
-              <td>26</td>
-              <td>71</td>
+              <td>Tamaño máximo de alimentación</td>
+              <td>Depende del modelo; en pulgadas o milímetros</td>
             </tr>
             <tr>
-              <td>5X6</td>
-              <td>7450</td>
-              <td>60</td>
-              <td>26</td>
-              <td>85</td>
+              <td>Ajuste de la abertura</td>
+              <td>Controla el tamaño del producto triturado</td>
             </tr>
             <tr>
-              <td>5X8</td>
-              <td>10400</td>
-              <td>75</td>
-              <td>26</td>
-              <td>116</td>
+              <td>Potencia del motor</td>
+              <td>En kW o HP, según el sistema de medición</td>
             </tr>
             <tr>
-              <td>6X6</td>
-              <td>10800</td>
-              <td>125</td>
-              <td>24-25</td>
-              <td>152</td>
+              <td>Tipo de motor</td>
+              <td>Eléctrico, diésel u otro</td>
             </tr>
             <tr>
-              <td>6X8</td>
-              <td>14350</td>
-              <td>150</td>
-              <td>24-25</td>
-              <td>202</td>
+              <td>Sistema de trituración</td>
+              <td>Mandíbulas móviles que comprimen el material</td>
+            </tr>
+            <tr>
+              <td>Material de las mandíbulas</td>
+              <td>Acero resistente al desgaste</td>
+            </tr>
+            <tr>
+              <td>Sistema de lubricación</td>
+              <td>Garantiza un funcionamiento suave</td>
+            </tr>
+            <tr>
+              <td>Sistema de protección</td>
+              <td>Contra sobrecargas u otros sistemas de seguridad</td>
+            </tr>
+            <tr>
+              <td>Estructura y diseño</td>
+              <td>Robusto y diseñado para cargas pesadas</td>
+            </tr>
+            <tr>
+              <td>Aplicaciones</td>
+              <td>Minería, canteras, procesamiento de minerales</td>
+            </tr>
+            <tr>
+              <td>Mantenimiento</td>
+              <td>Requiere mantenimiento regular para rendimiento óptimo</td>
             </tr>
           </tbody>
         </table>
       </div>
     </section>
-  )
-}
+  );
+};

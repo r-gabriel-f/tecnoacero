@@ -17,62 +17,50 @@ export const Detalles_Aprom = () => {
         <table className="caracteristicas-table">
           <thead>
             <tr>
-              <th>MOLINO</th>
-              <th>CARGA DE BOLAS Kg/ 45%vol</th>
-              <th>POTENCIA MOTOR (HP)</th>
-              <th>VELOCIDAD DE ROTACION (RPM)</th>
-              <th>CAPACIDAD TONELADA POR 24 Hrs</th>
-            </tr>
+              <th>MODELO</th>
+              <th>-</th>
+               </tr>
           </thead>
           <tbody>
             <tr>
-              <td>3X4</td>
-              <td>1800</td>
-              <td>15</td>
-              <td>33</td>
-              <td>17</td>
+              <td>TAMAÑO</td>
+              <td></td>
+              
             </tr>
             <tr>
-              <td>3X6</td>
-              <td>2750</td>
-              <td>20</td>
-              <td>33</td>
-              <td>27</td>
+              <td>CAUDAL MAXIMO</td>
+              <td></td>
+              
             </tr>
             <tr>
-              <td>5X5</td>
-              <td>6200</td>
-              <td>50</td>
-              <td>26</td>
-              <td>71</td>
+              <td>ALTURA MANOMÉTRICA MÁXIMA</td>
+              <td></td>
+             
             </tr>
             <tr>
-              <td>5X6</td>
-              <td>7450</td>
-              <td>60</td>
-              <td>26</td>
-              <td>85</td>
+              <td>TAMAÑO MÁXIMO DE SÓLIDOS</td>
+              <td></td>
+             
             </tr>
             <tr>
-              <td>5X8</td>
-              <td>10400</td>
-              <td>75</td>
-              <td>26</td>
-              <td>116</td>
+              <td>TOLERANCIA A ABRASIÓN</td>
+              <td></td>
+              
             </tr>
             <tr>
-              <td>6X6</td>
-              <td>10800</td>
-              <td>125</td>
-              <td>24-25</td>
-              <td>152</td>
+              <td>ENTRADA</td>
+              <td></td>
+              
             </tr>
             <tr>
-              <td>6X8</td>
-              <td>14350</td>
-              <td>150</td>
-              <td>24-25</td>
-              <td>202</td>
+              <td>SALIDA</td>
+              <td></td>
+             
+            </tr>
+            <tr>
+              <td>MOTOR</td>
+              <td></td>
+             
             </tr>
           </tbody>
         </table>

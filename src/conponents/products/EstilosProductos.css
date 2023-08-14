@@ -79,10 +79,14 @@
   font-family: "Russo One", sans-serif;
 }
 
-
 /* Estilos para la imagen */
+.image-partes {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
 .imagen-partes {
-  width: 30%;
+  width: 600px;
   height: auto;
 }
 
@@ -93,7 +97,8 @@
   margin-top: 20px;
 }
 
-.caracteristicas-table-partes th, .caracteristicas-table-partes td {
+.caracteristicas-table-partes th,
+.caracteristicas-table-partes td {
   border: 1px solid black;
   padding: 8px;
   text-align: center;
@@ -102,9 +107,6 @@
 .caracteristicas-table-partes th {
   background-color: #f2f2f2;
 }
-
-
-
 
 @keyframes moveUpDown {
   0% {
@@ -133,7 +135,7 @@
     height: 150px;
     margin-top: -0px;
   }
-  .container-parts-name h2{
+  .container-parts-name h2 {
     font-size: 40px;
   }
 }

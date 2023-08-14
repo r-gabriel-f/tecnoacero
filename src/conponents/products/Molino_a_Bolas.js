@@ -10,7 +10,7 @@ import polea from "../../assets/img/molino_a_bola/polea.jpg";
 import tapa from "../../assets/img/molino_a_bola/tapa.jpg";
 import trunion from "../../assets/img/molino_a_bola/TRUNION.jpg";
 import trunionretocado from "../../assets/img/molino_a_bola/TRUNION RETOCADO.jpg";
-import molino from "../../assets/img/molino a bolas.png";
+import molino from "../../assets/img/repuestos/molino.PNG";
 export const Molino_a_Bolas = () => {
   return (
     <section className="container-productosestilos" transition-style>

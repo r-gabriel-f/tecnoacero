@@ -7,7 +7,7 @@ export const Locomotora_Rhyno = () => {
       <div className="container-parts-name">
         <h2>Repuestos de Locomotora Rhyno</h2>
       </div>
-      <div className="container-parts">
+     {/* <div className="container-parts">
         <div className="container-parts-detalles">
           <div className="piezas">
             <div className="nombre-pieza">
@@ -90,7 +90,7 @@ export const Locomotora_Rhyno = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div>*/}
       <div className="container-descripcion-partes">
         <h3>Descripcion</h3>
         <p>

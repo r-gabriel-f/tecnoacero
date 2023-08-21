@@ -17,7 +17,7 @@ export const Molino_a_Bolas = () => {
       <div className="container-parts-name">
         <h2>Repuestos de Molino a Bolas</h2>
       </div>
-      <div className="container-parts">
+      {/*<div className="container-parts">
         <div className="container-parts-detalles">
           <div className="piezas">
             <div className="nombre-pieza">
@@ -117,7 +117,7 @@ export const Molino_a_Bolas = () => {
             </div>
           </div>
         </div>
-      </div>
+  </div>*/}
 
       <div className="image-partes">
         <img src={molino} alt="molino" className="imagen-partes" />

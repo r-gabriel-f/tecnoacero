@@ -103,4 +103,32 @@ figure {
     font-size: 40px;
     font-family: "Russo One", sans-serif;
   }
+  
+  .container-slider {
+    grid-template-columns: 1fr; /* Adjust the grid template columns for smaller screens */
+  }
+
+  .container-slider img {
+    height: auto; 
+  }
+
+  .slider-titulo h3 {
+    padding: 0;
+    margin: 10px 0; /* Add margin to the title */
+  }
+ 
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .container-slider {
+    grid-template-columns: 1fr; /* Adjust the grid template columns for smaller screens */
+  }
+
+  .container-slider img {
+    height: auto; 
+  }
+
+  .slider-titulo h3 {
+    padding: 0;
+    margin: 10px 0; /* Add margin to the title */
+  }
 }

@@ -8,7 +8,7 @@ export const Proceso = () => {
 
   useEffect(() => {
     const cambiarImagenSegunAncho = () => {
-      if (window.innerWidth <= 767) {
+      if (window.innerWidth <= 767 ) {
         setImagen(tres); // Cambia la imagen a "1.png" si el ancho es menor o igual a 767px
       } else {
         setImagen(dos); // Mantén la imagen "2.png" para anchos mayores a 767px

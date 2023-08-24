@@ -23,8 +23,14 @@ export const ContactoEnd = () => {
               </a>
             </div>
             <div>
-              <ion-icon name="logo-whatsapp" className="icon"></ion-icon>
+            <a
+                href="https://w.app/3CMasT"
+                target="_banks"
+              >
+                <ion-icon name="logo-whatsapp" className="icon"></ion-icon>
               <p>Whatsapp</p>
+              </a>
+              
             </div>
             <div>
               <a

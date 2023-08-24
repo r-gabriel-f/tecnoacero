@@ -34,17 +34,22 @@ export const Mapa = () => {
                 </p>
               </a>
             </div>
-
             <div className="ico-name">
-              <ion-icon
-                name="logo-whatsapp"
-                className="icon-contacto"
-                id="whatsapp"
-              ></ion-icon>
-              <p>
+              <a
+                href="https://w.app/3CMasT"
+                target="_banks"
+              >
+                <ion-icon
+                  name="logo-whatsapp"
+                  className="icon-contacto"
+                  id="whatsapp"
+                ></ion-icon>
+                <p>
                 Whatsapp:<br></br>(+591) 72220486
-              </p>
+                </p>
+              </a>
             </div>
+            
             <div className="ico-name">
               <ion-icon
                 name="mail-outline"

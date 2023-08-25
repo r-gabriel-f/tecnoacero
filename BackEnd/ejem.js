@@ -28,7 +28,7 @@ async function sendEmail() {
 
   const messageOptions = {
     from: "robertgabrielxd2@gmail.com", // Utiliza el alias configurado
-    to: "tecnoacero56@gmail.com",
+    to: "robertgabrielxd2@gmail.com, r.gabriel.f@outlook.com",
     subject: "Prueba de envío de correo",
     text: "Este es un mensaje de prueba enviado desde Node.js y Nodemailer.",
   };

@@ -54,11 +54,13 @@ export const Mapa = () => {
               <ion-icon
                 name="mail-outline"
                 className="icon-contacto"
-                id="email"
+                id="direccion"
               ></ion-icon>
               <p>
-                Email:<br></br>tecnoacero_bolivia@yahoo.com
+                Email:<br></br>tecnoacero_bolivia@yahoo.com<br></br>
+                info@tecnoacero.com.bo
               </p>
+
             </div>
             <div className="ico-name">
               <a

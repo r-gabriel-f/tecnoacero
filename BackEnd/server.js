@@ -19,7 +19,7 @@ app.post('/send-email', (req, res) => {
 
   const mailOptions = {
     from: "Web Correo <tecnoacero56@gmail.com>",
-    to: "r.gabriel.f@outlook.com, robertgabrielxd2@gmail.com",
+    to: "tecnoacero_bolivia@yahoo.com, info@tecnoacero.com.bo",
     subject: subject,
     text: `Nombre: ${nombre}\nEmail: ${from}\nAsunto: ${subject}\nMensaje: ${text}`
   };

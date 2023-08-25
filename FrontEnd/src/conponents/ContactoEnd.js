@@ -10,8 +10,13 @@ export const ContactoEnd = () => {
          <div className="conponent-centericonos">
          <div className="conponent-contaciconos">
             <div>
-              <ion-icon name="mail-outline" className="icon"></ion-icon>
+              <a
+                href="mailto:tecnoacero_bolivia@yahoo.com"
+                target="_banks"
+              >
+                <ion-icon name="mail-outline" className="icon"></ion-icon>
               <p>Email</p>
+              </a>
             </div>
             <div>
               <a

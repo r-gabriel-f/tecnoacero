@@ -33,13 +33,13 @@
 figure {
   position: absolute;
   left: 0;
-  width: 1100%; /* 100% times the number of slides (11 slides) */
+  width: 1000%; /* 100% times the number of slides (10 slides) */
   animation: 55s container-slider infinite; /* Adjust the animation duration accordingly */
 }
 
 .container-slider {
   position: relative;
-  width: 9.09%; /* 100% divided by the number of slides (11 slides) */
+  width: 10%; /* 100% divided by the number of slides (10 slides) */
   float: left;
   display: grid;
   grid-template-columns: 3fr 1fr;;
@@ -89,13 +89,27 @@ figure {
 }
 
 .slider-titulo {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centrar verticalmente */
+  align-items: center;
   background-color: white;
 }
 .slider-titulo h3 {
   width: 100%;
   text-align: center;
   margin-bottom: 20px; /* Espacio entre el h3 y la imagen */
+  margin-top: 20px; /* Espacio entre el h3 y la imagen */
   color: black;
+}
+.slider-titulo p {
+
+  text-align: center;
+  margin-right: 20px; 
+  margin-left: 20px;
+  text-align: justify;
+  
 }
 
 @media screen and (max-width: 767px) {

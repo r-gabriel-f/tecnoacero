@@ -44,9 +44,15 @@ export const Infraestructura = () => {
             <div className="slider-titulo">
               <h3>Diseño</h3>
               <p>
-                El proceso de crear un plan o concepto detallado para la
-                creación de productos o piezas. Incluye la generación de
-                especificaciones, planos y diseños que guiarán la fabricación.
+                En el diseño se realiza después de haber tenido las mediciones
+                correspondientes de las piezas solicitadas de los clientes se
+                realiza el diseño considerando las medidas obtenidas la
+                aplicación en la que el repuesto actúa, cuando también se
+                selecciona el metal según las solicitudes mecánicas que
+                expuesto, una vez obtenido el diseño mecánico final y selección
+                de material, se procede a la simulación del proceso de
+                fundición. una vez obtenido todos los datos se procede a la
+                fabricación del modelo y para su posterior moldeo y fundición.
               </p>
             </div>
           </div>
@@ -55,9 +61,8 @@ export const Infraestructura = () => {
             <div className="slider-titulo">
               <h3>Modelado</h3>
               <p>
-                Creación virtual de formas y geometrías en software de diseño 3D
-                para visualizar y planificar cómo se verán los productos antes
-                de la fabricación.
+                Una vez concluido el diseño de la pieza se procede con la
+                fabricación del modelo.
               </p>
             </div>
           </div>
@@ -66,9 +71,8 @@ export const Infraestructura = () => {
             <div className="slider-titulo">
               <h3>Moldeo</h3>
               <p>
-                Proceso de crear moldes que se utilizarán para dar forma a los
-                materiales fundidos. Puede implicar moldes de arena, moldes
-                metálicos, moldes cerámicos, entre otros.
+                Ya teniendo el modelo fabricado se procede con el modelo de la
+                pieza.
               </p>
             </div>
           </div>
@@ -77,10 +81,9 @@ export const Infraestructura = () => {
             <div className="slider-titulo">
               <h3>Fundición</h3>
               <p>
-             
-                Proceso de verter metal fundido en un molde para crear piezas
-                fundidas sólidas con la forma deseada. Es fundamental en la
-                creación de objetos metálicos.
+                Una vez obtenido el molde se procede con la fundición siguiendo
+                estrictos controles de calidad con el material fusionado para
+                luego vaciar en los moldes.
               </p>
             </div>
           </div>
@@ -89,9 +92,9 @@ export const Infraestructura = () => {
             <div className="slider-titulo">
               <h3>Acabado</h3>
               <p>
-                Proceso posterior a la fundición que implica la eliminación de
-                rebabas, imperfecciones y otras irregularidades de las piezas
-                fundidas, mejorando su apariencia y funcionalidad.
+                Una vez obtenido la pieza fundida se procede al cortar los
+                alimentadores y las mazarotas para luego ser esmerilado o pulido
+                para la forma final.
               </p>
             </div>
           </div>
@@ -100,9 +103,9 @@ export const Infraestructura = () => {
             <div className="slider-titulo">
               <h3>Tratamientos Termicos</h3>
               <p>
-                Procesos controlados de calentamiento y enfriamiento aplicados a
-                las piezas para mejorar sus propiedades físicas y mecánicas,
-                como la dureza y la resistencia.
+                Una vez obtenida la pieza después del acabado se procede a
+                realizar el tratamiento térmico según el material y el objetivo
+                de las propiedades mecánicas para el cual fue diseñada.
               </p>
             </div>
           </div>
@@ -111,9 +114,9 @@ export const Infraestructura = () => {
             <div className="slider-titulo">
               <h3>Laboratorio</h3>
               <p>
-                Un espacio equipado con instrumentos y herramientas
-                especializados para realizar análisis, pruebas y evaluaciones,
-                como pruebas de control de calidad o análisis de materiales.
+                Es la parte de espectrometría se utiliza del control de metal
+                antes del vaciado como también confirmar el resultado del
+                material fundido.
               </p>
             </div>
           </div>
@@ -121,9 +124,7 @@ export const Infraestructura = () => {
             <img src={x8} alt="Slide 8" className="img-infraestructura" />
             <div className="slider-titulo">
               <h3>Maestranza</h3>
-              <p>
-                Lugar de torneria
-              </p>
+              <p>Lugar de torneria</p>
             </div>
           </div>
           <div className="container-slider">
@@ -131,7 +132,6 @@ export const Infraestructura = () => {
             <div className="slider-titulo">
               <h3>Control de calidad</h3>
               <p>
-            
                 Proceso de supervisión y evaluación sistemática de los productos
                 fabricados para asegurar que cumplan con los estándares de
                 calidad establecidos y satisfagan las expectativas del cliente.

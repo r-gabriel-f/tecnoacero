@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import dos from "../assets/img/2.png";
-import tres from "../assets/img/3.png";
+import dos from "../assets/img/proceso/2.png";
+import tres from "../assets/img/proceso/3.png";
 
 import "../conponents/Proceso.css";
 export const Proceso = () => {

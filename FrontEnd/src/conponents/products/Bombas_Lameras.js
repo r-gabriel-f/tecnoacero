@@ -1,9 +1,6 @@
 import React from "react";
 import "../../conponents/products/EstilosProductos.css";
-import n from "../../assets/img/ojo.png";
-import cabeza from "../../assets/img/bombas lameras/CABEZAL.jpg";
-import camisa from "../../assets/img/bombas lameras/camisa.jpg";
-import discos from "../../assets/img/bombas lameras/DISCOS.jpg";
+
 import molino from "../../assets/img/repuestos/molino.PNG";
 
 export const Bombas_Lameras = () => {

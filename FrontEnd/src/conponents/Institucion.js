@@ -1,7 +1,7 @@
 import React from "react";
-import v from "../assets/img/valores.PNG";
-import m from "../assets/img/objetivo.png";
-import vi from "../assets/img/ojo.png";
+import v from "../assets/img/nosotros/valores.PNG";
+import m from "../assets/img/nosotros/objetivo.png";
+import vi from "../assets/img/nosotros/ojo.png";
 
 import "../conponents/Institucion.css";
 export const Institucion = () => {

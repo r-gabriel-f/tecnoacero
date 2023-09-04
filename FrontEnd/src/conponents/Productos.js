@@ -3,12 +3,12 @@ import { React, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../conponents/Productos.css";
 
-import molino_bolas from "../assets/img/molino a bolas.png";
-import apronfeader from "../assets/img/apromfeeder.png";
-import bonbaslameras from "../assets/img/bonbaslameras.png";
-import chancadora from "../assets/img/chancadora.png";
-import mesa from "../assets/img/mesa.png";
-import celdasdeflotacion from "../assets/img/celdasdeflotacion.png";
+import molino_bolas from "../assets/img/productos/molino a bolas.png";
+import apronfeader from "../assets/img/productos/apromfeeder.png";
+import bonbaslameras from "../assets/img/productos/bonbaslameras.png";
+import chancadora from "../assets/img/productos/chancadora.png";
+import mesa from "../assets/img/productos/mesa.png";
+import celdasdeflotacion from "../assets/img/productos/celdasdeflotacion.png";
 
 export const Productos = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

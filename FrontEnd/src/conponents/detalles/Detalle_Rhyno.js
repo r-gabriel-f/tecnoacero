@@ -1,6 +1,6 @@
 import React from 'react'
 import "../../conponents/detalles/EstiloDetalles.css";
-import rhyno from "../../assets/img/locomotorarhino.png";
+import rhyno from "../../assets/img/productos/locomotorarhino.png";
 
 export const Detalle_Rhyno = () => {
   return (

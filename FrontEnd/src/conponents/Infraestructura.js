@@ -59,7 +59,7 @@ export const Infraestructura = () => {
           <div className="container-slider">
             <img src={x2} alt="Slide 2" className="img-infraestructura" />
             <div className="slider-titulo">
-              <h3>Modelado</h3>
+              <h3>Fabricacion de modelos</h3>
               <p>
                 Una vez concluido el diseño de la pieza se procede con la
                 fabricación del modelo.

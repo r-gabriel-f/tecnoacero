@@ -3,9 +3,9 @@ import { React, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../conponents/Productos.css";
 
-import locomotorarhino from "../assets/img/locomotorarhino.png";
-import carrito from "../assets/img/carrometalero.png";
-import carrogranby from "../assets/img/carrogranby.png";
+import locomotorarhino from "../assets/img/productos/locomotorarhino.png";
+import carrito from "../assets/img/productos/carrometalero.png";
+import carrogranby from "../assets/img/productos/carrogranby.png";
 export const Productos_Minieria = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 

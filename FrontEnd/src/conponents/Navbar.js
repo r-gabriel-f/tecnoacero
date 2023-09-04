@@ -1,7 +1,7 @@
 import { React, useState,useEffect } from "react";
 
 import { Link, useNavigate } from "react-router-dom";
-import tc from "../assets/img/tecnoAcero.jpeg";
+import tc from "../assets/img/nosotros/tecnoAcero.jpeg";
 import "../conponents/Navbar.css";
 
 const Navbar = () => {

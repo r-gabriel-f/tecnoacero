@@ -1,6 +1,5 @@
 import React from "react";
 import "../../conponents/products/EstilosProductos.css";
-import n from "../../assets/img/ojo.png";
 import molino from "../../assets/img/repuestos/molino.PNG";
 
 export const Carro_Granby = () => {

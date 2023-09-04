@@ -1,6 +1,6 @@
 import React from "react";
 import "../../conponents/detalles/EstiloDetalles.css";
-import mesa from "../../assets/img/mesa.png";
+import mesa from "../../assets/img/productos/mesa.png";
 
 export const Detalles_Mesa = () => {
   return (

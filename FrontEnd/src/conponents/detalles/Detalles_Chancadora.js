@@ -1,6 +1,6 @@
 import React from "react";
 import "../../conponents/detalles/EstiloDetalles.css";
-import chancadora from "../../assets/img/chancadora.png";
+import chancadora from "../../assets/img/productos/chancadora.png";
 export const Detalles_Chancadora = () => {
   return (
     <section className="container-detallesproductosestilos" transition-style>

@@ -1,6 +1,7 @@
 import React from "react";
-import "../conponents/Inicio.css";
-import { Institucion } from "./Institucion";
+import "../inicio/Inicio.css";
+import { Institucion } from "../institucion/Institucion";
+
 export const Inicio = () => {
   return (
     <section className="container-inicio" transition-style>

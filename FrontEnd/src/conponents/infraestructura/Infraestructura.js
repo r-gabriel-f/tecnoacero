@@ -1,16 +1,16 @@
 import React, { useState } from "react";
-import "./Infraestructura.css";
+import "../infraestructura/Infraestructura.css";
 
-import x1 from "../assets/img/infraestructura/modelado.jpg";
-import x2 from "../assets/img/infraestructura/modeo1.jpg";
-import x3 from "../assets/img/infraestructura/modeo2.jpg";
-import x4 from "../assets/img/infraestructura/hornostratamiento.jpg";
-import x5 from "../assets/img/infraestructura/hornosfundicion.jpg";
-import x6 from "../assets/img/infraestructura/fundicion.jpg";
-import x7 from "../assets/img/infraestructura/esmerilado.jpg";
-import x8 from "../assets/img/infraestructura/torneria1.jpg";
-import x9 from "../assets/img/infraestructura/torneria2.jpg";
-import x10 from "../assets/img/infraestructura/torneria3.jpg";
+import x1 from "../../assets/img/infraestructura/modelado.jpg";
+import x2 from "../../assets/img/infraestructura/modeo1.jpg";
+import x3 from "../../assets/img/infraestructura/modeo2.jpg";
+import x4 from "../../assets/img/infraestructura/hornostratamiento.jpg";
+import x5 from "../../assets/img/infraestructura/hornosfundicion.jpg";
+import x6 from "../../assets/img/infraestructura/fundicion.jpg";
+import x7 from "../../assets/img/infraestructura/esmerilado.jpg";
+import x8 from "../../assets/img/infraestructura/torneria1.jpg";
+import x9 from "../../assets/img/infraestructura/torneria2.jpg";
+import x10 from "../../assets/img/infraestructura/torneria3.jpg";
 // Importar las demás imágenes aquí...
 
 export const Infraestructura = () => {

@@ -67,7 +67,7 @@
   align-items: center; /* Centramos horizontalmente los elementos */
   text-align: center;
   height: 100px;
-  background-image: url("../../assets/img/nosotros/fondo.jpg");
+  background-image: url("/src/assets/img/nosotros/fondo.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

@@ -1,5 +1,6 @@
 import React from "react";
-import "../conponents/ContactosEnd.css";
+import "../contacto_end/ContactosEnd.css";
+
 export const ContactoEnd = () => {
   return (
     <section className="conponent-contactosend">

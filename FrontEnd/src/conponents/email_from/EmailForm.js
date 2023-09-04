@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import Swal from "sweetalert2";
-import "./EmailFrom.css";
+import "../email_from/EmailFrom.css";
 
 const EmailForm = () => {
   const [nombre, setNombre] = useState("");

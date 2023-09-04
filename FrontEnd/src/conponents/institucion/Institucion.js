@@ -1,9 +1,9 @@
 import React from "react";
-import v from "../assets/img/nosotros/valores.PNG";
-import m from "../assets/img/nosotros/objetivo.png";
-import vi from "../assets/img/nosotros/ojo.png";
+import v from "../../assets/img/nosotros/valores.PNG";
+import m from "../../assets/img/nosotros/objetivo.png";
+import vi from "../../assets/img/nosotros/ojo.png";
 
-import "../conponents/Institucion.css";
+import "../institucion/Institucion.css";
 export const Institucion = () => {
   return (
     <section className="container-mision-vision" transition-style>

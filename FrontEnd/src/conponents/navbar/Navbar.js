@@ -1,8 +1,8 @@
 import { React, useState,useEffect } from "react";
 
 import { Link, useNavigate } from "react-router-dom";
-import tc from "../assets/img/nosotros/tecnoAcero.jpeg";
-import "../conponents/Navbar.css";
+import tc from "../../assets/img/nosotros/tecnoAcero.jpeg";
+import "../navbar/Navbar.css";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

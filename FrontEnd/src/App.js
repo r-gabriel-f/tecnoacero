@@ -36,8 +36,6 @@ import { Carro_Granby } from "./conponents/products/Carro_Granby";
 import Navbar from "./conponents/navbar/Navbar";
 import { ContactoEnd } from "./conponents/contacto_end/ContactoEnd";
 
-
-
 function App() {
   return (
     <Router>
@@ -138,7 +136,6 @@ function App() {
         />
 
         <Route path="/*" element={<Navigate to="/" />} />
-
       </Routes>
 
       <ContactoEnd />

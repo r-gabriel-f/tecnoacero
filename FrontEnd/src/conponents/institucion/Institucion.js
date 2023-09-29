@@ -1,7 +1,7 @@
 import React from "react";
-import v from "../../assets/img/nosotros/valores.PNG";
-import m from "../../assets/img/nosotros/objetivo.png";
-import vi from "../../assets/img/nosotros/ojo.png";
+import v from "../../assets/img/nosotros/valores.webp";
+import m from "../../assets/img/nosotros/objetivo.webp";
+import vi from "../../assets/img/nosotros/ojo.webp";
 
 import "../institucion/Institucion.css";
 export const Institucion = () => {
@@ -11,7 +11,7 @@ export const Institucion = () => {
         <div className="mision">
           <h2>MISION</h2>
 
-          <img src={m} href id="v" className="img-misionv" />
+          <img src={m} alt="i" id="v" className="img-misionv" />
 
           <p>
             TECNOACERO S.R.L. es una empresa comprometida en satisfacer las
@@ -27,7 +27,7 @@ export const Institucion = () => {
         <div className="vision">
           <h2>VISION</h2>
 
-          <img src={vi} href id="vi" className="img-visionv" />
+          <img src={vi} alt="i" id="vi" className="img-visionv" />
 
           <p>
             Ser líder en el mercado de fundición de acero y producción de
@@ -43,7 +43,7 @@ export const Institucion = () => {
       <div className="container-valores">
         <h2>VALORES</h2>
         <div className="valores">
-          <img src={v} href id="v" className="img-valores" />
+          <img src={v} alt="i" id="v" className="img-valores" />
         </div>
       </div>
     </section>

@@ -1,6 +1,6 @@
 import React from 'react'
 import "../../conponents/detalles/EstiloDetalles.css";
-import carretero from "../../assets/img/productos/carrometalero.png";
+import carretero from "../../assets/img/productos/carrometalero.webp";
 
 export const Detalle_Metalero = () => {
   return (

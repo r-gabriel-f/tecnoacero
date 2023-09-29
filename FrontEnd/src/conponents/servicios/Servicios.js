@@ -1,11 +1,11 @@
 import { React} from "react";
 import "../servicios/Servicios.css";
-import azucarera from "../../assets/img/servicios/azucarera.jpg";
-import cementera from "../../assets/img/servicios/cementera.jpg";
-import mineria from "../../assets/img/servicios/mineria.jpg";
-import petrolera from "../../assets/img/servicios/petrolera.jpg";
-import construccion from "../../assets/img/servicios/construccion.png";
-import general from "../../assets/img/servicios/general.png";
+import azucarera from "../../assets/img/servicios/azucarera.webp";
+import cementera from "../../assets/img/servicios/cementera.webp";
+import mineria from "../../assets/img/servicios/mineria.webp";
+import petrolera from "../../assets/img/servicios/petrolera.webp";
+import construccion from "../../assets/img/servicios/construccion.webp";
+import general from "../../assets/img/servicios/general.webp";
 
 export const Servicios = () => {
   return (

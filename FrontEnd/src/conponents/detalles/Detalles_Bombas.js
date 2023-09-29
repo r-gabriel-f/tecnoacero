@@ -1,6 +1,6 @@
 import React from "react";
 import "../../conponents/detalles/EstiloDetalles.css";
-import bombas from "../../assets/img/productos/bonbaslameras.png";
+import bombas from "../../assets/img/productos/bonbaslameras.webp";
 
 export const Detalles_Bombas = () => {
   return (

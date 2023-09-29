@@ -3,15 +3,11 @@ import { React, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../productos_mineria/Productos.css";
 
-import locomotorarhino from "../../assets/img/productos/locomotorarhino.png";
-import carrito from "../../assets/img/productos/carrometalero.png";
-import carrogranby from "../../assets/img/productos/carrogranby.png";
+import locomotorarhino from "../../assets/img/productos/locomotorarhino.webp";
+import carrito from "../../assets/img/productos/carrometalero.webp";
+import carrogranby from "../../assets/img/productos/carrogranby.webp";
 export const Productos_Minieria = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
 
   window.scrollTo({ top: 0, behavior: "smooth" });
   const navigate = useNavigate();
@@ -46,7 +42,8 @@ export const Productos_Minieria = () => {
             <div className="img-producto">
               <img
                 src={locomotorarhino}
-                href
+                alt="l"
+                href="/f"
                 id="p"
                 className="img-productos"
               />
@@ -70,7 +67,13 @@ export const Productos_Minieria = () => {
           </div>
           <div className="container-img-producto">
             <div className="img-producto">
-              <img src={carrito} href id="p" className="img-productos" />
+              <img
+                src={carrito}
+                href="/ff"
+                alt="r"
+                id="p"
+                className="img-productos"
+              />
 
               <div className="botones-detalles">
                 <button
@@ -91,7 +94,13 @@ export const Productos_Minieria = () => {
           </div>
           <div className="container-img-producto">
             <div className="img-producto">
-              <img src={carrogranby} href id="p" className="img-productos" />
+              <img
+                src={carrogranby}
+                href="/ff"
+                alt="r"
+                id="p"
+                className="img-productos"
+              />
 
               <div className="botones-detalles">
                 <button

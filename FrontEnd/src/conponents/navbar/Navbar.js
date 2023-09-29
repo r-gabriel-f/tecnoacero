@@ -1,12 +1,12 @@
-import { React, useState,useEffect } from "react";
+import { React, useState } from "react";
 
 import { Link, useNavigate } from "react-router-dom";
-import tc from "../../assets/img/nosotros/tecnoAcero.jpeg";
+import tc from "../../assets/img/nosotros/tecnoAcero.webp";
 import "../navbar/Navbar.css";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [linkActivo, setLinkActivo] = useState(""); // Agregamos este estado para guardar el enlace activo
+  const [linkActivo, setLinkActivo] = useState(""); 
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -14,10 +14,8 @@ const Navbar = () => {
 
   window.scrollTo({ top: 0, behavior: "smooth" });
   const navigate = useNavigate();
-  // Agregar useEffect para redireccionar a la ruta principal ("/") al cargar el componente Navbar
-  useEffect(() => {
-    navigate("/");
-  }, []);
+
+
   //inicio
   const handleInicioClick = () => {
     navigate("/");
@@ -25,12 +23,6 @@ const Navbar = () => {
     setLinkActivo("inicio");
   };
 
-  //institucion
-  const handleInstitucionClick = () => {
-    navigate("/institucion");
-    setIsMenuOpen(false);
-    setLinkActivo("institucion");
-  };
 
   //servicios
   const handleserviciosClick = () => {
@@ -93,7 +85,7 @@ const Navbar = () => {
     <nav class="navbar navbar-expand-lg custom-navbar fixed-top">
       <div class="container-fluid">
         <div className="navbar-img">
-          <img src={tc} href id="tc" className="img-small" />
+        <img src={tc} alt="tc" id="tc" className="img-small" />
         </div>
         <button class="navbar-toggler" type="button" onClick={toggleMenu}>
           <span class="navbar-toggler-icon"></span>
@@ -179,7 +171,7 @@ const Navbar = () => {
             >
               <a
                 className="nav-link dropdown-toggle"
-                href="#"
+                href="/a"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"

@@ -1,6 +1,6 @@
 import React from "react";
 import "../../conponents/detalles/EstiloDetalles.css";
-import molino from "../../assets/img/productos/molino a bolas.png";
+import molino from "../../assets/img/productos/molino a bolas.webp";
 
 export const Detalles_Molino = () => {
   return (

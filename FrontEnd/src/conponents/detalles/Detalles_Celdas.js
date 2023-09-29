@@ -1,6 +1,6 @@
 import React from "react";
 import "../../conponents/detalles/EstiloDetalles.css";
-import celdas from "../../assets/img/productos/celdasdeflotacion.png";
+import celdas from "../../assets/img/productos/celdasdeflotacion.webp";
 
 export const Detalles_Celdas = () => {
   return (

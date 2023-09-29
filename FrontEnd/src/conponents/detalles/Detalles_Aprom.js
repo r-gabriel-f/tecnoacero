@@ -1,6 +1,6 @@
 import React from 'react'
 import "../../conponents/detalles/EstiloDetalles.css";
-import aprom from "../../assets/img/productos/apromfeeder.png";
+import aprom from "../../assets/img/productos/apromfeeder.webp";
 
 export const Detalles_Aprom = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
 import "../../conponents/detalles/EstiloDetalles.css";
-import granby from "../../assets/img/productos/carrogranby.png";
+import granby from "../../assets/img/productos/carrogranby.webp";
 
 export const Detalle_Granby = () => {
   return (

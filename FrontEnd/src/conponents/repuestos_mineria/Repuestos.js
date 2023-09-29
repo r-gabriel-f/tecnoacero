@@ -3,12 +3,12 @@ import { React, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../productos_mineria/Productos.css";
 
-import molino_bolas from "../../assets/img/productos/molino a bolas.png";
-import apronfeader from "../../assets/img/productos/apromfeeder.png";
-import bonbaslameras from "../../assets/img/productos/bonbaslameras.png";
-import chancadora from "../../assets/img/productos/chancadora.png";
-import mesa from "../../assets/img/productos/mesa.png";
-import celdasdeflotacion from "../../assets/img/productos/celdasdeflotacion.png";
+import molino_bolas from "../../assets/img/productos/molino a bolas.webp";
+import apronfeader from "../../assets/img/productos/apromfeeder.webp";
+import bonbaslameras from "../../assets/img/productos/bonbaslameras.webp";
+import chancadora from "../../assets/img/productos/chancadora.webp";
+import mesa from "../../assets/img/productos/mesa.webp";
+import celdasdeflotacion from "../../assets/img/productos/celdasdeflotacion.webp";
 export const Repuestos = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
   

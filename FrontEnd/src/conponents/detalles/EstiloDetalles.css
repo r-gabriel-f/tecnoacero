@@ -16,7 +16,7 @@
     background-position: center;
     background-repeat: no-repeat;
     color: white;
-    animation: moveUpDown 5s infinite alternate; /* Aquí indicamos la animación */
+    animation: moveUpDown 5s infinite alternate;
   }
   .container-detallesparts-name h2 {
     font-size: 50px;
@@ -27,13 +27,13 @@
     margin-right: 20px;
     text-align: justify;
   }
-/* Estilos para la imagen */
+
 .imagen-detalle {
     width: 30%;
     height: auto;
   }
   
-  /* Estilos para la tabla */
+
   .caracteristicas-table {
     border-collapse: collapse;
     width: 100%;

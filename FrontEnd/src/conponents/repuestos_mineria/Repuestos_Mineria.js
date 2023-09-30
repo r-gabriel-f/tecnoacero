@@ -7,27 +7,25 @@ import locomotorarhino from "../../assets/img/productos/locomotorarhino.webp";
 import carrito from "../../assets/img/productos/carrometalero.webp";
 import carrogranby from "../../assets/img/productos/carrogranby.webp";
 export const Repuestos_Mineria = () => {
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const setIsMenuOpen = useState(false);
   
-    const toggleMenu = () => {
-      setIsMenuOpen(!isMenuOpen);
-    };
+
   
     window.scrollTo({ top: 0, behavior: "smooth" });
     const navigate = useNavigate();
   
-    //locomotora rhyno
+
     const handlelocomotorarhynoClick = () => {
       navigate("/repuestos/extracción_minera/locomotora_rhyno");
       setIsMenuOpen(false);
     };
   
-    //carro metalero
+  
     const handlecarrometaleroClick = () => {
       navigate("/repuestos/extracción_minera/carro_metalero");
       setIsMenuOpen(false);
     };
-    //carro granby
+  
     const handlecarrogranbyClick = () => {
       navigate("/repuestos/extracción_minera/carro_granby");
       setIsMenuOpen(false);
@@ -46,7 +44,7 @@ export const Repuestos_Mineria = () => {
               <div className="img-producto">
                 <img
                   src={locomotorarhino}
-                  href
+                  href="/" alt="dd"
                   id="p"
                   className="img-productos"
                 />
@@ -70,7 +68,7 @@ export const Repuestos_Mineria = () => {
             </div>
             <div className="container-img-producto">
               <div className="img-producto">
-                <img src={carrito} href id="p" className="img-productos" />
+                <img src={carrito} href="/" alt="dd" id="p" className="img-productos" />
   
                 <div className="botones-detalles">
                   <button
@@ -91,7 +89,7 @@ export const Repuestos_Mineria = () => {
             </div>
             <div className="container-img-producto">
               <div className="img-producto">
-                <img src={carrogranby} href id="p" className="img-productos" />
+                <img src={carrogranby} href="/" alt="dd" id="p" className="img-productos" />
   
                 <div className="botones-detalles">
                   <button

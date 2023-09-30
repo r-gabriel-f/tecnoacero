@@ -61,10 +61,10 @@
   text-align: justify;
 }
 .container-parts-name {
-  display: flex; /* Utilizamos Flexbox */
-  flex-direction: column; /* Mostramos los elementos en una columna */
-  justify-content: center; /* Centramos verticalmente los elementos */
-  align-items: center; /* Centramos horizontalmente los elementos */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   height: 100px;
   background-image: url("/src/assets/img/nosotros/fondo.webp");
@@ -72,14 +72,14 @@
   background-position: center;
   background-repeat: no-repeat;
   color: white;
-  animation: moveUpDown 5s infinite alternate; /* Aquí indicamos la animación */
+  animation: moveUpDown 5s infinite alternate;
 }
 .container-parts-name h2 {
   font-size: 50px;
   font-family: "Russo One", sans-serif;
 }
 
-/* Estilos para la imagen */
+
 .image-partes {
   display: flex;
   align-items: center;
@@ -90,7 +90,7 @@
   height: auto;
 }
 
-/* Estilos para la tabla */
+
 .caracteristicas-table-partes {
   border-collapse: collapse;
   width: 100%;

@@ -33,13 +33,13 @@
 figure {
   position: absolute;
   left: 0;
-  width: 1000%; /* 100% times the number of slides (10 slides) */
-  animation: 55s container-slider infinite; /* Adjust the animation duration accordingly */
+  width: 1000%;
+  animation: 55s container-slider infinite;
 }
 
 .container-slider {
   position: relative;
-  width: 10%; /* 100% divided by the number of slides (10 slides) */
+  width: 10%;
   float: left;
   display: grid;
   grid-template-columns: 3fr 1fr;;
@@ -62,9 +62,6 @@ figure {
   cursor: pointer;
 }
 
-/* Estilos previos ... */
-
-/* Ajustar los estilos de los botones */
 .prev-btn,
 .next-btn {
   position: absolute;
@@ -92,15 +89,15 @@ figure {
   
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Centrar verticalmente */
+  justify-content: center;
   align-items: center;
   background-color: white;
 }
 .slider-titulo h3 {
   width: 100%;
   text-align: center;
-  margin-bottom: 20px; /* Espacio entre el h3 y la imagen */
-  margin-top: 20px; /* Espacio entre el h3 y la imagen */
+  margin-bottom: 20px;
+  margin-top: 20px;
   color: black;
 }
 .slider-titulo p {
@@ -119,7 +116,7 @@ figure {
   }
   
   .container-slider {
-    grid-template-columns: 1fr; /* Adjust the grid template columns for smaller screens */
+    grid-template-columns: 1fr;
   }
 
   .container-slider img {
@@ -128,13 +125,13 @@ figure {
 
   .slider-titulo h3 {
     padding: 0;
-    margin: 10px 0; /* Add margin to the title */
+    margin: 10px 0;
   }
  
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .container-slider {
-    grid-template-columns: 1fr; /* Adjust the grid template columns for smaller screens */
+    grid-template-columns: 1fr; 
   }
 
   .container-slider img {
@@ -143,6 +140,6 @@ figure {
 
   .slider-titulo h3 {
     padding: 0;
-    margin: 10px 0; /* Add margin to the title */
+    margin: 10px 0; 
   }
 }

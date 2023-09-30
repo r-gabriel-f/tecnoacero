@@ -1,82 +1,65 @@
 import { React, useState } from "react";
 
-import { Link, useNavigate } from "react-router-dom";
+import { Link} from "react-router-dom";
 import tc from "../../assets/img/nosotros/tecnoAcero.webp";
 import "../navbar/Navbar.css";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [linkActivo, setLinkActivo] = useState(""); 
+  const [linkActivo, setLinkActivo] = useState("");
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
   window.scrollTo({ top: 0, behavior: "smooth" });
-  const navigate = useNavigate();
 
 
-  //inicio
   const handleInicioClick = () => {
-    navigate("/");
     setIsMenuOpen(false);
     setLinkActivo("inicio");
   };
 
 
-  //servicios
   const handleserviciosClick = () => {
-    navigate("/servicios");
     setIsMenuOpen(false);
     setLinkActivo("servicios");
   };
-  //infraestructuta
+
   const handleinfraestructuraClick = () => {
-    navigate("/infraestructura");
     setIsMenuOpen(false);
     setLinkActivo("infraestructura");
   };
-  //proceso
+
   const handleprocesoClick = () => {
-    navigate("/proceso");
     setIsMenuOpen(false);
     setLinkActivo("proceso");
   };
 
-  //contacto
+
   const handleUbicacionClick = () => {
-    navigate("/contacto");
     setIsMenuOpen(false);
     setLinkActivo("contacto");
   };
 
-  //productos maquinaria
 
   const handlemaquinariaClick = () => {
-    navigate("/productos/maquinaria");
     setIsMenuOpen(false);
     setLinkActivo("productos");
   };
 
-  //producto extraccion minera
 
   const handleextraccionClick = () => {
-    navigate("/productos/extracción_minera");
     setIsMenuOpen(false);
     setLinkActivo("productos");
   };
-  //repuestos maquinaria
 
   const handlerepuestosmaquinariaClick = () => {
-    navigate("/repuestos/maquinaria");
     setIsMenuOpen(false);
     setLinkActivo("productos");
   };
 
-  //repuestos extraccion minera
-
   const handlerepuestosextraccionClick = () => {
-    navigate("/repuestos/extracción_minera");
     setIsMenuOpen(false);
     setLinkActivo("productos");
   };
@@ -85,7 +68,7 @@ const Navbar = () => {
     <nav class="navbar navbar-expand-lg custom-navbar fixed-top">
       <div class="container-fluid">
         <div className="navbar-img">
-        <img src={tc} alt="tc" id="tc" className="img-small" />
+          <img src={tc} alt="tc" id="tc" className="img-small" />
         </div>
         <button class="navbar-toggler" type="button" onClick={toggleMenu}>
           <span class="navbar-toggler-icon"></span>
@@ -107,20 +90,7 @@ const Navbar = () => {
                 Inicio
               </Link>
             </li>
-            {/*<li
-              class={`nav-item mx-3 ${
-                linkActivo === "institucion" ? "active" : ""
-              }`}
-            >
-              <Link
-                class="nav-link"
-                aria-current="page"
-                to="/institucion"
-                onClick={handleInstitucionClick}
-              >
-                Institución
-              </Link>
-            </li>*/}
+
             <li
               class={`nav-item mx-3 ${
                 linkActivo === "servicios" ? "active" : ""
@@ -215,25 +185,8 @@ const Navbar = () => {
                     Repuestos de Maquinaria Minera para Extracción
                   </Link>
                 </li>
-                {/*<li>
-                  <Link className="dropdown-item">Otros</Link>
-            </li>*/}
               </ul>
             </li>
-           
-            {/*<li
-              class={`nav-item mx-3 ${
-                linkActivo === "proceso" ? "active" : ""
-              }`}
-            >
-              <Link
-                class="nav-link"
-                aria-current="page"
-                
-              >
-                Galeria
-              </Link>
-            </li>*/}
 
             <li
               class={`nav-item mx-3 ${

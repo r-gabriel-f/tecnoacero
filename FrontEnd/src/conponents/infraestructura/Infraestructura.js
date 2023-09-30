@@ -11,7 +11,6 @@ import x7 from "../../assets/img/infraestructura/esmerilado.jpg";
 import x8 from "../../assets/img/infraestructura/torneria1.jpg";
 import x9 from "../../assets/img/infraestructura/torneria2.jpg";
 import x10 from "../../assets/img/infraestructura/torneria3.jpg";
-// Importar las demás imágenes aquí...
 
 export const Infraestructura = () => {
   const totalSlides = 10;

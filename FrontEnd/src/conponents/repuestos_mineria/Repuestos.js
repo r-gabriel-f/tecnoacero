@@ -11,43 +11,40 @@ import mesa from "../../assets/img/productos/mesa.webp";
 import celdasdeflotacion from "../../assets/img/productos/celdasdeflotacion.webp";
 export const Repuestos = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-  
-    const toggleMenu = () => {
-      setIsMenuOpen(!isMenuOpen);
-    };
+
   
     window.scrollTo({ top: 0, behavior: "smooth" });
     const navigate = useNavigate();
   
-    //mesa concentradora
+
     const handlemesaconcentradoraClick = () => {
       navigate("/repuestos/maquinaria/mesa_concentradora");
       setIsMenuOpen(false);
     };
   
-    //chancadora
+
     const handlechancadoraClick = () => {
       navigate("/repuestos/maquinaria/chancadora");
       setIsMenuOpen(false);
     };
-    //celdas de flotacion
+
     const handleceldasdeflotacionClick = () => {
       navigate("/repuestos/maquinaria/celda_de_flotacion");
       setIsMenuOpen(false);
     };
-    //bombas lameras
+
     const handlebombaslamerasClick = () => {
       navigate("/repuestos/maquinaria/bombas_lameras");
       setIsMenuOpen(false);
     };
   
-    //molino a bolas
+  
   
     const handlemolinobolasClick = () => {
       navigate("/repuestos/maquinaria/molino_a_bolas");
       setIsMenuOpen(false);
     };
-    //aprom freeder
+
     const handleapromfeederClick = () => {
       navigate("/repuestos/maquinaria/aprom_feeder");
       setIsMenuOpen(false);

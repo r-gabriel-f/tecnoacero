@@ -30,7 +30,7 @@ export const ContactoEnd = () => {
             </div>
             <div>
             <a
-                href="https://w.app/3CMasT"
+                href="https://wa.link/zobve5"
                 target="_banks"
               >
                 <ion-icon name="logo-whatsapp" className="icon"></ion-icon>

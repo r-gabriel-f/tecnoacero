@@ -36,7 +36,7 @@ export const Mapa = () => {
               </a>
             </div>
             <div className="ico-name">
-              <a href="https://w.app/3CMasT" target="_banks">
+              <a href="https://wa.link/zobve5" target="_banks">
                 <ion-icon
                   name="logo-whatsapp"
                   className="icon-contacto"

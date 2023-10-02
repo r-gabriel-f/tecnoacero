@@ -3,6 +3,7 @@ import "../../conponents/detalles/EstiloDetalles.css";
 import mesa from "../../assets/img/productos/mesa.webp";
 
 export const Detalles_Mesa = () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
   return (
     <section className="container-detallesproductosestilos" transition-style>
       <div className="container-detallesparts-name">

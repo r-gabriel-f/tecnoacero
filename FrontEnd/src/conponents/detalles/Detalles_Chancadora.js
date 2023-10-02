@@ -2,6 +2,7 @@ import React from "react";
 import "../../conponents/detalles/EstiloDetalles.css";
 import chancadora from "../../assets/img/productos/chancadora.webp";
 export const Detalles_Chancadora = () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
   return (
     <section className="container-detallesproductosestilos" transition-style>
       <div className="container-detallesparts-name">

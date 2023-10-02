@@ -4,7 +4,6 @@ import "../productos_mineria/Productos.css";
 import DatosProductos from "../../datos/DatosProductos";
 
 export const Productos = () => {
-  
   const products = DatosProductos();
   window.scrollTo({ top: 0, behavior: "smooth" });
   return (

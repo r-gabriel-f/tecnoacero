@@ -1,5 +1,3 @@
-
-import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import molino_bolas from "../assets/img/productos/molino a bolas.webp";
 import apronfeader from "../assets/img/productos/apromfeeder.webp";
@@ -9,37 +7,36 @@ import mesa from "../assets/img/productos/mesa.webp";
 import celdasdeflotacion from "../assets/img/productos/celdasdeflotacion.webp";
 
 const DatosProductos = () => {
-    const  [isMenuOpen, setIsMenuOpen] = useState(false);
-    window.scrollTo({ top: 0, behavior: "smooth" });
   const navigate = useNavigate();
+  window.scrollTo({ top: 0, behavior: "smooth" });
   const handlemesaconcentradoraClick = () => {
     navigate("/productos/maquinaria/mesa_concentradora");
-    setIsMenuOpen(false);
+
   };
 
   const handlechancadoraClick = () => {
     navigate("/productos/maquinaria/chancadora");
-    setIsMenuOpen(false);
+
   };
 
   const handleceldasdeflotacionClick = () => {
     navigate("/productos/maquinaria/celda_de_flotacion");
-    setIsMenuOpen(false);
+
   };
 
   const handlebombaslamerasClick = () => {
     navigate("/productos/maquinaria/bombas_lameras");
-    setIsMenuOpen(false);
+
   };
 
   const handlemolinobolasClick = () => {
     navigate("/productos/maquinaria/molino_a_bolas");
-    setIsMenuOpen(false);
+
   };
 
   const handleapromfeederClick = () => {
     navigate("/productos/maquinaria/aprom_feeder");
-    setIsMenuOpen(false);
+
   };
 
   const products = [

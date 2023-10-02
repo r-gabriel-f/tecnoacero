@@ -3,6 +3,7 @@ import "../../conponents/detalles/EstiloDetalles.css";
 import granby from "../../assets/img/productos/carrogranby.webp";
 
 export const Detalle_Granby = () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
   return (
     <section className="container-detallesproductosestilos" transition-style>
       <div className="container-detallesparts-name">

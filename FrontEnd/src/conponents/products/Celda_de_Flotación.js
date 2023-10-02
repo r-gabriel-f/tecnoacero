@@ -3,6 +3,7 @@ import "../../conponents/products/EstilosProductos.css";
 import molino from "../../assets/img/repuestos/molino.PNG";
 
 export const Celda_de_Flotación = () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
   return (
     <section className="container-productosestilos">
       <div className="container-parts-name">

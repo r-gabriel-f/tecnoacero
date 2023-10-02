@@ -35,7 +35,6 @@ import { Carro_Metalero } from "./conponents/products/Carro_Metalero";
 import { Carro_Granby } from "./conponents/products/Carro_Granby";
 import Navbar from "./conponents/navbar/Navbar";
 import { ContactoEnd } from "./conponents/contacto_end/ContactoEnd";
-
 function App() {
   return (
     <Router>

@@ -3,6 +3,7 @@ import "../../conponents/detalles/EstiloDetalles.css";
 import molino from "../../assets/img/productos/molino a bolas.webp";
 
 export const Detalles_Molino = () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
   return (
     <section className="container-detallesproductosestilos" transition-style>
       <div className="container-detallesparts-name">

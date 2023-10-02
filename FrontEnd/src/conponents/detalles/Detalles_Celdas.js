@@ -3,6 +3,7 @@ import "../../conponents/detalles/EstiloDetalles.css";
 import celdas from "../../assets/img/productos/celdasdeflotacion.webp";
 
 export const Detalles_Celdas = () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
   return (
     <section className="container-detallesproductosestilos" transition-style>
       <div className="container-detallesparts-name">

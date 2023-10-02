@@ -4,6 +4,7 @@ import "../../conponents/products/EstilosProductos.css";
 import molino from "../../assets/img/repuestos/molino.PNG";
 
 export const Bombas_Lameras = () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
   return (
     <section className="container-productosestilos" transition-style>
       <div className="container-parts-name">

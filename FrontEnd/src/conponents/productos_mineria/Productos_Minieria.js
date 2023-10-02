@@ -5,6 +5,7 @@ import DatosProductosMineria from "../../datos/DatosProductosMineria";
 
 export const Productos_Minieria = () => {
   const productsMineria = DatosProductosMineria();
+  window.scrollTo({ top: 0, behavior: "smooth" });
   return (
     <section className="container-productos">
       <div className="categoria-producto">

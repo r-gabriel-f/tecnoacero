@@ -65,24 +65,24 @@ const Navbar = () => {
   };
 
   return (
-    <nav class="navbar navbar-expand-lg custom-navbar fixed-top">
-      <div class="container-fluid">
+    <nav className="navbar navbar-expand-lg custom-navbar fixed-top">
+      <div className="container-fluid">
         <div className="navbar-img">
           <img src={tc} alt="tc" id="tc" className="img-small" />
         </div>
-        <button class="navbar-toggler" type="button" onClick={toggleMenu}>
-          <span class="navbar-toggler-icon"></span>
+        <button className="navbar-toggler" type="button" onClick={toggleMenu}>
+          <span className="navbar-toggler-icon"></span>
         </button>
         <div
           className={`collapse navbar-collapse ${isMenuOpen ? "show" : ""}`}
           id="navbarSupportedContent"
         >
-          <ul class="navbar-nav mx-auto mb-10 mb-lg-0 me-2">
+          <ul className="navbar-nav mx-auto mb-10 mb-lg-0 me-2">
             <li
-              class={`nav-item mx-3 ${linkActivo === "inicio" ? "active" : ""}`}
+              className={`nav-item mx-3 ${linkActivo === "inicio" ? "active" : ""}`}
             >
               <Link
-                class="nav-link"
+                className="nav-link"
                 aria-current="page"
                 to="/"
                 onClick={handleInicioClick}
@@ -92,12 +92,12 @@ const Navbar = () => {
             </li>
 
             <li
-              class={`nav-item mx-3 ${
+              className={`nav-item mx-3 ${
                 linkActivo === "servicios" ? "active" : ""
               }`}
             >
               <Link
-                class="nav-link"
+                className="nav-link"
                 aria-current="page"
                 to="/servicios"
                 onClick={handleserviciosClick}
@@ -106,12 +106,12 @@ const Navbar = () => {
               </Link>
             </li>
             <li
-              class={`nav-item mx-3 ${
+              className={`nav-item mx-3 ${
                 linkActivo === "infraestructura" ? "active" : ""
               }`}
             >
               <Link
-                class="nav-link"
+                className="nav-link"
                 aria-current="page"
                 to="/infraestructura"
                 onClick={handleinfraestructuraClick}
@@ -120,12 +120,12 @@ const Navbar = () => {
               </Link>
             </li>
             <li
-              class={`nav-item mx-3 ${
+              className={`nav-item mx-3 ${
                 linkActivo === "proceso" ? "active" : ""
               }`}
             >
               <Link
-                class="nav-link"
+                className="nav-link"
                 aria-current="page"
                 to="/proceso"
                 onClick={handleprocesoClick}
@@ -135,7 +135,7 @@ const Navbar = () => {
             </li>
 
             <li
-              class={`nav-item mx-3 dropdown ${
+              className={`nav-item mx-3 dropdown ${
                 linkActivo === "productos" ? "active" : ""
               }`}
             >
@@ -189,12 +189,12 @@ const Navbar = () => {
             </li>
 
             <li
-              class={`nav-item mx-3 ${
+              className={`nav-item mx-3 ${
                 linkActivo === "contacto" ? "active" : ""
               }`}
             >
               <Link
-                class="nav-link"
+                className="nav-link"
                 aria-current="page"
                 to="/contacto"
                 onClick={handleUbicacionClick}

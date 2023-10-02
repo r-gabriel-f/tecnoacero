@@ -6,7 +6,7 @@ import molino from "../../assets/img/repuestos/molino.PNG";
 export const Bombas_Lameras = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
   return (
-    <section className="container-productosestilos" transition-style>
+    <section className="container-productosestilos">
       <div className="container-parts-name">
         <h2>Repuestos de Bombas Lameras</h2>
       </div>

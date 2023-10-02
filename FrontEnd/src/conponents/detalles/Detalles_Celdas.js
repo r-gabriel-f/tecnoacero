@@ -5,7 +5,7 @@ import celdas from "../../assets/img/productos/celdasdeflotacion.webp";
 export const Detalles_Celdas = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
   return (
-    <section className="container-detallesproductosestilos" transition-style>
+    <section className="container-detallesproductosestilos">
       <div className="container-detallesparts-name">
         <h2>Detalles de Celdas de Flotación</h2>
       </div>

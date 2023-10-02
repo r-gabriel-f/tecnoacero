@@ -4,7 +4,7 @@ import { Institucion } from "../institucion/Institucion";
 
 export const Inicio = () => {
   return (
-    <section className="container-inicio" transition-style>
+    <section className="container-inicio">
       <div className="contenido-inicio">
         <div className="center-content">
           <h1 className="h1-margin">TECNOACERO S.R.L.</h1>

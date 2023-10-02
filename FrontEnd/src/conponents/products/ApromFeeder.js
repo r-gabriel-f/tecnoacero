@@ -5,7 +5,7 @@ import molino from "../../assets/img/repuestos/molino.PNG";
 export const ApromFeeder = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
   return (
-    <section className="container-productosestilos" transition-style>
+    <section className="container-productosestilos">
       <div className="container-parts-name">
         <h2>Repuestos de Aprom Feeder</h2>
       </div>

@@ -7,7 +7,7 @@ export const Repuestos = () => {
   const products = DatosRepuestoProductos();
   window.scrollTo({ top: 0, behavior: "smooth" });
   return (
-    <section className="container-productos" transition-style>
+    <section className="container-productos" >
       <div className="categoria-producto">
         <h2>Repuestos de Maquinaria Minera</h2>
       </div>

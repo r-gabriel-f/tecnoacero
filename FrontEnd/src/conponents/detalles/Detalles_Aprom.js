@@ -5,7 +5,7 @@ import aprom from "../../assets/img/productos/apromfeeder.webp";
 export const Detalles_Aprom = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
   return (
-    <section className="container-detallesproductosestilos" transition-style>
+    <section className="container-detallesproductosestilos">
       <div className="container-detallesparts-name">
         <h2>Detalles de Aprom Feeder</h2>
       </div>

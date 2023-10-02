@@ -6,7 +6,7 @@ import vi from "../../assets/img/nosotros/ojo.webp";
 import "../institucion/Institucion.css";
 export const Institucion = () => {
   return (
-    <section className="container-mision-vision" transition-style>
+    <section className="container-mision-vision">
       <div className="mision-vision">
         <div className="mision">
           <h2>MISION</h2>

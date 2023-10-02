@@ -29,14 +29,12 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 50px;
- 
 }
-
 
 .productos-container {
   display: flex;
-  justify-content: center; 
-  flex-wrap: wrap; 
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .productos {
@@ -103,22 +101,20 @@
 @media screen and (max-width: 767px) {
   .grid-productos {
     grid-template-columns: repeat(1, 1fr);
-
     grid-row-gap: 0px;
   }
   .categoria-producto h2 {
-    font-size: 40px;
+    font-size: 30px;
+    margin-top: 15px;
   }
-
-
 }
-@media screen and (min-width: 768px) and (max-width: 1199px){
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .grid-productos {
     grid-template-columns: repeat(2, 1fr);
 
     grid-row-gap: 0px;
   }
   .categoria-producto h2 {
-    font-size: 40px; 
+    font-size: 40px;
   }
 }

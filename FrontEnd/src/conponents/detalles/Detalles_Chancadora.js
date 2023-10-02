@@ -4,7 +4,7 @@ import chancadora from "../../assets/img/productos/chancadora.webp";
 export const Detalles_Chancadora = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
   return (
-    <section className="container-detallesproductosestilos" transition-style>
+    <section className="container-detallesproductosestilos">
       <div className="container-detallesparts-name">
         <h2>Detalles de Chancadora</h2>
       </div>

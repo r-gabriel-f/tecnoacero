@@ -5,7 +5,7 @@ import bombas from "../../assets/img/productos/bonbaslameras.webp";
 export const Detalles_Bombas = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
   return (
-    <section className="container-detallesproductosestilos" transition-style>
+    <section className="container-detallesproductosestilos">
       <div className="container-detallesparts-name">
         <h2>Detalles de Bombas Lameras</h2>
       </div>

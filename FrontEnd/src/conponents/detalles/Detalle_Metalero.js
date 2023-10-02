@@ -5,7 +5,7 @@ import carretero from "../../assets/img/productos/carrometalero.webp";
 export const Detalle_Metalero = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
   return (
-    <section className="container-detallesproductosestilos" transition-style>
+    <section className="container-detallesproductosestilos">
       <div className="container-detallesparts-name">
         <h2>Detalles de Carro Metalero</h2>
       </div>

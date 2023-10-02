@@ -36,21 +36,18 @@ export const Mapa = () => {
               </a>
             </div>
             <div className="ico-name">
-              <a
-                href="https://w.app/3CMasT"
-                target="_banks"
-              >
+              <a href="https://w.app/3CMasT" target="_banks">
                 <ion-icon
                   name="logo-whatsapp"
                   className="icon-contacto"
                   id="whatsapp"
                 ></ion-icon>
                 <p>
-                Whatsapp:<br></br>(+591) 72220486
+                  Whatsapp:<br></br>(+591) 72220486
                 </p>
               </a>
             </div>
-            
+
             <div className="ico-name">
               <ion-icon
                 name="mail-outline"
@@ -61,7 +58,6 @@ export const Mapa = () => {
                 Email:<br></br>tecnoacero_bolivia@yahoo.com<br></br>
                 info@tecnoacero.com.bo
               </p>
-
             </div>
             <div className="ico-name">
               <a
@@ -95,17 +91,17 @@ export const Mapa = () => {
           </div>
         </div>
         <div className="formulario-emaild">
-          <EmailForm/>
+          <EmailForm />
         </div>
       </div>
       <div className="mapa">
         <iframe
           title="Mapa del sitio"
           className="gmap_iframe"
-          frameborder="0"
-          marginheight="0"
-          marginwidth="0"
-          src="https://maps.google.com/maps?amp;hl=en&amp;q=TECNOACERO S.R.L.&amp;t=p&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          frameBorder="0"
+          marginHeight="0"
+          marginWidth="0"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.16601073968!2d-66.21475782583829!3d-17.403818964638695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93e373cc5e88df79%3A0x7e8fad11503da955!2sTECNOACERO%20S.R.L.!5e0!3m2!1ses!2sbo!4v1696257482211!5m2!1ses!2sbo"
         ></iframe>
       </div>
     </section>

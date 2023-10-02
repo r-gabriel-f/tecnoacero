@@ -5,7 +5,7 @@ import rhyno from "../../assets/img/productos/locomotorarhino.webp";
 export const Detalle_Rhyno = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
   return (
-    <section className="container-detallesproductosestilos" transition-style>
+    <section className="container-detallesproductosestilos">
       <div className="container-detallesparts-name">
         <h2>Detalles de Locomotora Rhyno</h2>
       </div>

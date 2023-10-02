@@ -5,7 +5,7 @@ import mesa from "../../assets/img/productos/mesa.webp";
 export const Detalles_Mesa = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
   return (
-    <section className="container-detallesproductosestilos" transition-style>
+    <section className="container-detallesproductosestilos">
       <div className="container-detallesparts-name">
         <h2>Detalles de Mesa Concentradora</h2>
       </div>

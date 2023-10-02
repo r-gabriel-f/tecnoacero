@@ -3,23 +3,26 @@ import "../infraestructura/Infraestructura.css";
 import { DatosInfraestructura } from "../../datos/DatosInfraestructura";
 
 export const Infraestructura = () => {
-  const totalSlides = 10;
-  const slideWidth = 100 / totalSlides;
+  const itemsPorFila = 1; 
+  const [currentIndex, setCurrentIndex] = useState(0);
 
-  const [currentSlide, setCurrentSlide] = useState(0);
-
-  const nextSlide = () => {
-    setCurrentSlide((prevSlide) => (prevSlide + 1) % totalSlides);
+  const goToNextSlide = () => {
+    setCurrentIndex((prevIndex) =>
+      (prevIndex + 1) % Math.ceil(DatosInfraestructura.length / itemsPorFila)
+    );
   };
 
-  const prevSlide = () => {
-    setCurrentSlide((prevSlide) => (prevSlide - 1 + totalSlides) % totalSlides);
+  const goToPrevSlide = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0
+        ? Math.ceil(DatosInfraestructura.length / itemsPorFila) - 1
+        : prevIndex - 1
+    );
   };
 
-  const sliderStyle = {
-    transform: `translateX(-${currentSlide * slideWidth}%)`,
-    transition: "transform 0.5s ease-in-out",
-  };
+  const startIndex = currentIndex * itemsPorFila;
+  const endIndex = startIndex + itemsPorFila;
+  const visibleItems = DatosInfraestructura.slice(startIndex, endIndex);
 
   return (
     <section className="container-infraestructura">
@@ -27,29 +30,27 @@ export const Infraestructura = () => {
         <h2>Infraestructura</h2>
       </div>
       <div className="slider-container">
-        <figure style={sliderStyle}>
-          {DatosInfraestructura.map((infra, i) => (
-            <div className="container-slider" key={i}>
+        {visibleItems.map((infra, i) => (
+          <div className="container-slider" key={i}>
+            <div className="slider-img">
               <img
                 src={infra.img}
                 alt={infra.name}
                 className="img-infraestructura"
               />
-              <div className="slider-titulo">
-                <h3>{infra.name}</h3>
-                <p>{infra.descripcion}</p>
-              </div>
             </div>
-          ))}
-        </figure>
-        <div className="slider-buttons">
-          <button className="prev-btn" onClick={prevSlide}>
-            &#10094;
-          </button>
-          <button className="next-btn" onClick={nextSlide}>
-            &#10095;
-          </button>
-        </div>
+            <div className="slider-titulo">
+              <h3>{infra.name}</h3>
+              <p>{infra.descripcion}</p>
+            </div>
+          </div>
+        ))}
+        <button className="slider-button prev" onClick={goToPrevSlide}>
+          Anterior
+        </button>
+        <button className="slider-button next" onClick={goToNextSlide}>
+          Siguiente
+        </button>
       </div>
     </section>
   );

@@ -7,6 +7,7 @@ export const Infraestructura = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const goToNextSlide = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
     setCurrentIndex(
       (prevIndex) =>
         (prevIndex + 1) % Math.ceil(DatosInfraestructura.length / itemsPorFila)
@@ -14,6 +15,7 @@ export const Infraestructura = () => {
   };
 
   const goToPrevSlide = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
     setCurrentIndex((prevIndex) =>
       prevIndex === 0
         ? Math.ceil(DatosInfraestructura.length / itemsPorFila) - 1
@@ -43,19 +45,19 @@ export const Infraestructura = () => {
             <div className="slider-titulo">
               <h3>{infra.name}</h3>
               <p>{infra.descripcion}</p>
+              <ion-icon
+                name="arrow-back-outline"
+                class="slider-button prev"
+                onClick={goToPrevSlide}
+              ></ion-icon>
+              <ion-icon
+                name="arrow-forward-outline"
+                onClick={goToNextSlide}
+                class="slider-button next"
+              ></ion-icon>
             </div>
           </div>
         ))}
-        <ion-icon
-          name="arrow-back-outline"
-          class="slider-button prev"
-          onClick={goToPrevSlide}
-        ></ion-icon>
-        <ion-icon
-          name="arrow-forward-outline"
-          onClick={goToNextSlide}
-          class="slider-button next"
-        ></ion-icon>
       </div>
     </section>
   );

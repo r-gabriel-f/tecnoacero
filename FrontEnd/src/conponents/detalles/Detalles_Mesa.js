@@ -15,42 +15,44 @@ export const Detalles_Mesa = () => {
 
       <div className="container-descripcion-detallespartes">
         <h3>Caracteristicas</h3>
-        <table className="caracteristicas-table">
-          <thead>
-            <tr>
-              <th>CAPACIDAD</th>
-              <th>-</th>
-              <th>-</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>TAMAÑO PARTICULA</td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>MOTOR ELECTRICO</td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>PESO(DESPACHO)</td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>VOLUMEN (DESPACHADO)</td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>CATEGORIA</td>
-              <td></td>
-              <td></td>
-            </tr>
-          </tbody>
-        </table>
+        <div className="scroll-detalles">
+          <table className="caracteristicas-table">
+            <thead>
+              <tr>
+                <th>CAPACIDAD</th>
+                <th>-</th>
+                <th>-</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>TAMAÑO PARTICULA</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>MOTOR ELECTRICO</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>PESO(DESPACHO)</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>VOLUMEN (DESPACHADO)</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>CATEGORIA</td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </section>
   );

@@ -1,76 +1,86 @@
 .container-detallesproductosestilos {
-    display: flex;
-    flex-direction: column;
-    margin-top: 60px;
-    animation: 6s cubic-bezier(0.25, 1, 0.3, 1) wipe-in-down both;
-  }
-  .container-detallesparts-name {
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
-    text-align: center;
-    height: 100px;
-    background-image: url("/src/assets/img/nosotros/fondo.webp");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: white;
-    animation: moveUpDown 5s infinite alternate;
-  }
-  .container-detallesparts-name h2 {
-    font-size: 50px;
-    font-family: "Russo One", sans-serif;
-  }
-  .container-detallesdescripcion-partes {
-    margin-left: 20px;
-    margin-right: 20px;
-    text-align: justify;
-  }
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  animation: 6s cubic-bezier(0.25, 1, 0.3, 1) wipe-in-down both;
+}
+.container-detallesparts-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100px;
+  background-image: url("/src/assets/img/nosotros/fondo.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  animation: moveUpDown 5s infinite alternate;
+}
 
+.container-descripcion-detallespartes {
+  margin: 20px;
+  text-align: justify;
+}
+.container-detallesparts-name h2 {
+  font-size: 50px;
+  font-family: "Russo One", sans-serif;
+}
+.image-detalle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
 .imagen-detalle {
-    width: 30%;
-    height: auto;
-  }
-  
+  width: 600px;
+  height: auto;
+}
 
-  .caracteristicas-table {
-    border-collapse: collapse;
-    width: 100%;
-    margin-top: 20px;
+.caracteristicas-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.caracteristicas-table th,
+.caracteristicas-table td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+.caracteristicas-table th {
+  background-color: #f2f2f2;
+}
+
+@keyframes moveUpDown {
+  0% {
+    background-position-y: 0;
   }
-  
-  .caracteristicas-table th, .caracteristicas-table td {
-    border: 1px solid black;
-    padding: 8px;
-    text-align: center;
+  100% {
+    background-position-y: 60%;
   }
-  
-  .caracteristicas-table th {
-    background-color: #f2f2f2;
+}
+@keyframes wipe-in-down {
+  from {
+    clip-path: inset(0 0 100% 0);
   }
-  
-  @keyframes moveUpDown {
-    0% {
-      background-position-y: 0;
-    }
-    100% {
-      background-position-y: 60%;
-    }
+  to {
+    clip-path: inset(0 0 0 0);
   }
-  @keyframes wipe-in-down {
-    from {
-      clip-path: inset(0 0 100% 0);
-    }
-    to {
-      clip-path: inset(0 0 0 0);
-    }
+}
+
+@media screen and (max-width: 767px) {
+  .container-detallesparts-name h2 {
+    font-size: 35px;
   }
-  
-  @media screen and (max-width: 767px) {
-    .container-detallesparts-name h2{
-      font-size: 30px;
-      margin-top: 15px;
-    }
+  .imagen-detalle {
+    width: 400px;
+    height: 250px;
   }
-  
+  .scroll-detalles {
+      overflow-x: auto;
+  }
+}

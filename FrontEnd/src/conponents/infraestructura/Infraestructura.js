@@ -3,12 +3,13 @@ import "../infraestructura/Infraestructura.css";
 import { DatosInfraestructura } from "../../datos/DatosInfraestructura";
 
 export const Infraestructura = () => {
-  const itemsPorFila = 1; 
+  const itemsPorFila = 1;
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const goToNextSlide = () => {
-    setCurrentIndex((prevIndex) =>
-      (prevIndex + 1) % Math.ceil(DatosInfraestructura.length / itemsPorFila)
+    setCurrentIndex(
+      (prevIndex) =>
+        (prevIndex + 1) % Math.ceil(DatosInfraestructura.length / itemsPorFila)
     );
   };
 
@@ -45,12 +46,16 @@ export const Infraestructura = () => {
             </div>
           </div>
         ))}
-        <button className="slider-button prev" onClick={goToPrevSlide}>
-          Anterior
-        </button>
-        <button className="slider-button next" onClick={goToNextSlide}>
-          Siguiente
-        </button>
+        <ion-icon
+          name="arrow-back-outline"
+          class="slider-button prev"
+          onClick={goToPrevSlide}
+        ></ion-icon>
+        <ion-icon
+          name="arrow-forward-outline"
+          onClick={goToNextSlide}
+          class="slider-button next"
+        ></ion-icon>
       </div>
     </section>
   );

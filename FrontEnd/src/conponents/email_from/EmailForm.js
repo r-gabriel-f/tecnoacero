@@ -13,7 +13,7 @@ const EmailForm = () => {
     event.preventDefault();
 
     try {
-      const response = await axios.post("http://localhost:3001/send-email", {
+      await axios.post("http://localhost:3001/send-email", {
         nombre,
         from,
         subject,

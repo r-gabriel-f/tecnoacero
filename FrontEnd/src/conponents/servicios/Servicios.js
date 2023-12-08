@@ -11,13 +11,18 @@ export const Servicios = () => {
       <div className="container-img-servicios">
         {DatosServicios.map((servicio, i) => (
           <div className="img-servicio" key={i}>
-          <img src={servicio.img} href="/" alt={servicio.name} className="img-servicios" />
-          <div className="tipo-servicio">
-            <h3>{servicio.name}</h3>
+            <img
+              src={servicio.img}
+              loading="lazy"
+              href="/"
+              alt={servicio.name}
+              className="img-servicios"
+            />
+            <div className="tipo-servicio">
+              <h3>{servicio.name}</h3>
+            </div>
           </div>
-        </div>
         ))}
-        
       </div>
     </section>
   );

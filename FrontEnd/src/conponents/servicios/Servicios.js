@@ -1,6 +1,7 @@
 import { React } from "react";
 import "../servicios/Servicios.css";
 import { DatosServicios } from "../../datos/DatosServicios";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export const Servicios = () => {
   return (
@@ -11,9 +12,8 @@ export const Servicios = () => {
       <div className="container-img-servicios">
         {DatosServicios.map((servicio, i) => (
           <div className="img-servicio" key={i}>
-            <img
+            <LazyLoadImage
               src={servicio.img}
-              loading="lazy"
               href="/"
               alt={servicio.name}
               className="img-servicios"

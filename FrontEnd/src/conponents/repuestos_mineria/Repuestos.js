@@ -1,13 +1,14 @@
-import { React} from "react";
+import { React } from "react";
 
 import "../productos_mineria/Productos.css";
 
 import DatosRepuestoProductos from "../../datos/DatosRepuestoProductos";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 export const Repuestos = () => {
   const products = DatosRepuestoProductos();
   window.scrollTo({ top: 0, behavior: "smooth" });
   return (
-    <section className="container-productos" >
+    <section className="container-productos">
       <div className="categoria-producto">
         <h2>Repuestos de Maquinaria Minera</h2>
       </div>
@@ -19,7 +20,7 @@ export const Repuestos = () => {
             </div>
             <div className="container-img-producto">
               <div className="img-producto">
-                <img
+                <LazyLoadImage
                   src={pro.img}
                   alt={pro.name}
                   id="p"

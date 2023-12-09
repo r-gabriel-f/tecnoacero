@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../infraestructura/Infraestructura.css";
 import { DatosInfraestructura } from "../../datos/DatosInfraestructura";
-
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 export const Infraestructura = () => {
   const itemsPorFila = 1;
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -36,7 +36,7 @@ export const Infraestructura = () => {
         {visibleItems.map((infra, i) => (
           <div className="container-slider" key={i}>
             <div className="slider-img">
-              <img
+              <LazyLoadImage
                 src={infra.img}
                 alt={infra.name}
                 className="img-infraestructura"

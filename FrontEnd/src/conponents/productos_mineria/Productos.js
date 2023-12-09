@@ -2,7 +2,7 @@ import { React } from "react";
 
 import "../productos_mineria/Productos.css";
 import DatosProductos from "../../datos/DatosProductos";
-
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 export const Productos = () => {
   const products = DatosProductos();
   window.scrollTo({ top: 0, behavior: "smooth" });
@@ -19,7 +19,7 @@ export const Productos = () => {
             </div>
             <div className="container-img-producto">
               <div className="img-producto">
-                <img
+                <LazyLoadImage
                   src={pro.img}
                   alt={pro.name}
                   id="p"

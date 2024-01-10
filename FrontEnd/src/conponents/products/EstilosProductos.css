@@ -34,10 +34,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 50px;
+  margin: 10px;
 }
 .imagen-partes {
-  width: 600px;
+  width: 450px;
   height: auto;
 }
 
@@ -80,7 +80,7 @@
     font-size: 30px;
   }
   .imagen-partes {
-    width: 400px;
+    width: 350px;
     height: 250px;
   }
   .scroll-partes {

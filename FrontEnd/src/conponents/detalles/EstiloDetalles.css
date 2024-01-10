@@ -31,11 +31,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 50px;
+  margin: 10px;
 }
 .imagen-detalle {
-  width: 600px;
+  width: 400px;
   height: auto;
+  
 }
 
 .caracteristicas-table {
